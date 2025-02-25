@@ -1,0 +1,41 @@
+name: Publish Resume as GitHub Page
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # Export your resume as HTML using the GitHub Action
+      - uses: kelvintaywl/action-jsonresume-export@v1
+        name: Export resume as HTML
+        with:
+          theme: flat  # You can choose any theme; here "flat" is the default
+          resume_filepath: resume.json
+          output_filepath: docs/index.html
+
+      # Commit the updated HTML if there are changes
+      - name: Commit published HTML
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status --porcelain docs/index.html)" ]; then
+            git add docs/index.html
+            git commit -m "[ci skip] update resume page"
+            echo ::set-output name=updated::true
+          else
+            echo ::set-output name=updated::false
+          fi
+
+      # Push changes back to the repo
+      - name: Push changes
+        if: steps.commit.outputs.updated == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
