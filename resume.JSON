@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Pedro Fontanarrosas",
+    "name": "Pedro Fontanarrosa",
     "label": "Researcher in Synthetic Biology & Biomedical Engineering",
     "image": "pictures/Profile_Picture.png",
     "email": "pfontanarrosa@gmail.com",
