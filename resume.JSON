@@ -1,0 +1,287 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Pedro Fontanarrosa",
+    "label": "Researcher in Synthetic Biology & Biomedical Engineering",
+    "image": "pictures/Profile_Picture.png",
+    "email": "pfontanarrosa@gmail.com",
+    "phone": "+44 (756) 459 4770",
+    "url": "https://fontanapink.github.io",
+    "summary": "Postdoctoral researcher with extensive experience in synthetic biology, genetic circuit design, and biomedical engineering. Skilled in research, modeling, simulation, and tool development.",
+    "location": {
+      "city": "London",
+      "region": "England",
+      "countryCode": "GB"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "fontanapink",
+        "url": "https://github.com/fontanapink"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0002-0535-2684",
+        "url": "https://orcid.org/0000-0002-0535-2684"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Computational Systems and Synthetic Biology Lab, College University London",
+      "position": "Research Assistantship",
+      "location": "London, UK",
+      "startDate": "2023-01-01",
+      "summary": "Developing genetic design automation software, modeling and simulation of genetic regulatory networks, and designing genetic circuits for specific applications under the supervision of Prof. Chris Barnes.",
+      "highlights": [
+        "GDA tool development for iBioSim",
+        "Development of novel modeling automation techniques",
+        "Maintenance of genetic parts repositories"
+      ]
+    },
+    {
+      "name": "Genetic Logic Lab, University of Boulder",
+      "position": "Research Assistantship",
+      "location": "Boulder, CO, USA",
+      "startDate": "2017-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Conducted research in genetic design automation, GRN modeling and simulation, and development of genetic circuits under the supervision of Prof. Chris Myers.",
+      "highlights": [
+        "GDA tool development using iBioSim",
+        "Innovative modeling automation techniques",
+        "Simulation and design of genetic regulatory networks"
+      ]
+    },
+    {
+      "name": "Evolutionary Studies Laboratory, University of Buenos Aires",
+      "position": "Research Assistantship",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "2010-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Performed research in genetics and ecology. Responsibilities included maintaining Drosophila isogenetic lines, coordinating specimen collection and expedition teams, and contributing to scientific papers and technical reports.",
+      "highlights": [
+        "Coordinated field expeditions and permit negotiations",
+        "Managed statistical programs and databases",
+        "Trained new laboratory members"
+      ]
+    },
+    {
+      "name": "University of Utah",
+      "position": "Graduate Teaching Assistant",
+      "location": "Utah, USA",
+      "startDate": "2020-09-01",
+      "endDate": "2020-12-01",
+      "summary": "Assisted in teaching Fundamentals of Biomedical Engineering II by leading discussion groups and grading assignments."
+    },
+    {
+      "name": "Northlands School",
+      "position": "Highschool Chemistry Teacher",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "2015-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Taught chemistry to high school students and coordinated Extended Essays in chemical research."
+    },
+    {
+      "name": "Tarbut School",
+      "position": "Science and Mathematics Teacher",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
+      "summary": "Taught primary and high school science and mathematics and organized Mathematical Ingenious Olympiads."
+    },
+    {
+      "name": "COMBINE Standards",
+      "position": "SBOL Editor",
+      "location": "Online",
+      "startDate": "2019-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Curated and maintained the Synthetic Biology Open Language standards and related documents, coordinated change proposals, and supported software libraries for the synthetic biology community."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Utah",
+      "area": "Biomedical Engineering (Synthetic Biology Track)",
+      "studyType": "Ph.D.",
+      "startDate": "2019-01-01",
+      "endDate": "2022-01-01",
+      "score": "3.8/4.0",
+      "courses": []
+    },
+    {
+      "institution": "University of Utah",
+      "area": "Bioengineering (Synthetic Biology Track)",
+      "studyType": "Master",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01",
+      "score": "3.67/4.0",
+      "courses": []
+    },
+    {
+      "institution": "University of Buenos Aires",
+      "area": "Biological Sciences (Genetics, Evolution and Ecology)",
+      "studyType": "Licentiate",
+      "startDate": "2007-01-01",
+      "endDate": "2014-01-01",
+      "score": "8.39/10.00",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Fulbright and Argentine Presidential Fellowship in Science & Technology",
+      "date": "2017-01-01",
+      "awarder": "Argentine President’s Cabinet & U.S. Embassy of Buenos Aires",
+      "summary": "Awarded to pursue a master’s degree in the United States starting Fall 2017."
+    },
+    {
+      "title": "Research and Communication Excellency Award",
+      "date": "2015-01-01",
+      "awarder": "Ministry of Science and Technology, Argentinean government",
+      "summary": "Recognized for excellence in research and communication under the 'Beca Estímulo' scholarship."
+    },
+    {
+      "title": "Beca Estímulo (Encouragement Scholarship)",
+      "date": "2011-01-01",
+      "awarder": "University of Buenos Aires",
+      "summary": "Supported research and development tasks in genetics and ecology."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
+      "publisher": "ACS Synthetic Biology",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": "An analysis of how model complexity impacts the robustness of synthetic genetic circuits."
+    },
+    {
+      "name": "Synthetic Biology Open Language (SBOL) Version 3.1.0",
+      "publisher": "Journal of Integrative Bioinformatics",
+      "releaseDate": "2023-01-01",
+      "url": "",
+      "summary": "Describes the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "Java",
+        "C++",
+        "JavaScript",
+        "R"
+      ]
+    },
+    {
+      "name": "Writing",
+      "level": "Expert",
+      "keywords": [
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Expert",
+      "keywords": [
+        "HTML",
+        "Hugo"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Intermediate",
+      "keywords": [
+        "SQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "French",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Synthetic Biology",
+      "keywords": [
+        "Genetic Circuit Design",
+        "Biomedical Engineering",
+        "Data Science"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Data Science Bootcamp",
+      "date": "2023-01-01",
+      "url": "https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/pedro-fontanarrosa",
+      "issuer": "THE ERDŐS INSTITUTE"
+    },
+    {
+      "name": "Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]",
+      "date": "2023-01-01",
+      "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
+      "issuer": "Udemy"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Biohacking BA",
+      "position": "Volunteer Organizer",
+      "url": "https://www.meetup.com/es/biohackingBA/",
+      "startDate": "2013-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Organized talks, workshops, and DIY projects to promote innovation in science and engineering.",
+      "highlights": [
+        "Recycling old refrigerators into incubators",
+        "Manufacturing a PCR thermocycler using Arduino",
+        "Developing open hardware projects"
+      ]
+    },
+    {
+      "organization": "University of Buenos Aires Biology Week",
+      "position": "Event Organizer",
+      "startDate": "2010-01-01",
+      "endDate": "2012-01-01",
+      "summary": "Coordinated the annual Biology Week to promote science careers among high school students."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Synergistic Discovery and Design (SD2)",
+      "description": "Genetic circuit design for extreme environments enabled by models extracted from petabyte+ perturbation analyses.",
+      "startDate": "2018-01-01",
+      "endDate": "2022-06-01",
+      "keywords": [
+        "Synthetic Biology",
+        "Genetic Circuits",
+        "DARPA"
+      ],
+      "roles": [
+        "Researcher"
+      ],
+      "entity": "DARPA",
+      "type": "research project"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "lastModified": "2025-02-19T00:00:00"
+  }
+}
