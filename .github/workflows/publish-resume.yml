@@ -1,24 +1,34 @@
-name: Publish Resume as GitHub Page
-
+name: Publish resume in JSONResume format as Github Page
+ 
 on:
   push:
-    branches: [ main  ]
+    branches: [ main ]
 
 jobs:
+  check_run:
+    runs-on: ubuntu-latest
+    # This 'if' line simply prevents the job from running if "[ci skip]" is in the commit message.
+    # If you don't need that behavior, you can remove the "if" line entirely.
+    if: ${{ !contains(github.event.head_commit.message, '[ci skip]') }}
+    steps:
+      - run: echo "${{ github.event.head_commit.message }}"
+
   build:
     runs-on: ubuntu-latest
+    needs: check_run
     steps:
       - uses: actions/checkout@v2
 
-      # Export your resume as HTML using the GitHub Action
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
-          theme: flat  # You can choose any theme; here "flat" is the default
+          # pick a theme from https://jsonresume.org/themes/ that the action supports
+          theme: elegant
+          # your JSON resume must be in the root as "resume.json" or update this path
           resume_filepath: resume.json
+          # the output HTML will be placed in docs/index.html
           output_filepath: docs/index.html
 
-      # Commit the updated HTML if there are changes
       - name: Commit published HTML
         id: commit
         run: |
@@ -26,16 +36,14 @@ jobs:
           git config --local user.name "GitHub Action"
           if [ -n "$(git status --porcelain docs/index.html)" ]; then
             git add docs/index.html
-            git commit -m "[ci skip] update resume page"
-            echo ::set-output name=updated::true
+            git commit -m "[ci skip] chore(docs/index.html): update resume page"
+            echo ::set-output name=exit_code::0
           else
-            echo ::set-output name=updated::false
-          fi
+            echo ::set-output name=exit_code::1
 
-      # Push changes back to the repo
       - name: Push changes
-        if: steps.commit.outputs.updated == 'true'
         uses: ad-m/github-push-action@master
+        if: steps.commit.outputs.exit_code == 0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: ${{ github.ref }}
