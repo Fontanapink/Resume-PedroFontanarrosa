@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Pedro Fontanarrosa TEST",
-    "label": "Researcher in Synthetic Biology & Biomedical Engineering",
+    "name": "Pedro Fontanarrosa",
+    "label": "Multidisciplinary Researcher & Software Engineer in Synthetic Biology",
     "image": "pictures/Profile_Picture.png",
     "email": "pfontanarrosa@gmail.com",
     "phone": "+44 (756) 459 4770",
     "url": "https://fontanapink.github.io",
-    "summary": "Postdoctoral researcher with extensive experience in synthetic biology, genetic circuit design, and biomedical engineering. Skilled in research, modeling, simulation, and tool development.",
+    "summary": "Broadly skilled researcher with a strong foundation in both computational/software engineering and biological sciences. I have extensive experience in genetic circuit design, machine learning, and data science—demonstrated through contributions to SBOL and iBioSim as well as remote collaborative projects. Passionate about using modern software development practices and advanced analytical techniques to solve complex, multidisciplinary problems.",
     "location": {
       "city": "London",
       "region": "England",
@@ -17,7 +17,7 @@
       {
         "network": "GitHub",
         "username": "fontanapink",
-        "url": "https://github.com/fontanapink"
+        "url": "https://github.com/Fontanapink"
       },
       {
         "network": "ORCID",
@@ -32,11 +32,11 @@
       "position": "Research Assistantship",
       "location": "London, UK",
       "startDate": "2023-01-01",
-      "summary": "Developing genetic design automation software, modeling and simulation of genetic regulatory networks, and designing genetic circuits for specific applications under the supervision of Prof. Chris Barnes.",
+      "summary": "Developing genetic design automation software, modeling and simulation of genetic regulatory networks, and designing genetic circuits for specific applications under the supervision of Prof. Chris Barnes. Actively collaborating with international teams using remote work tools (Slack, Zoom) and cloud services.",
       "highlights": [
-        "GDA tool development for iBioSim",
-        "Development of novel modeling automation techniques",
-        "Maintenance of genetic parts repositories"
+        "Developed advanced GDA tools for iBioSim",
+        "Pioneered novel modeling automation techniques",
+        "Maintained and enhanced genetic parts repositories"
       ]
     },
     {
@@ -45,11 +45,11 @@
       "location": "Boulder, CO, USA",
       "startDate": "2017-01-01",
       "endDate": "2023-01-01",
-      "summary": "Conducted research in genetic design automation, GRN modeling and simulation, and development of genetic circuits under the supervision of Prof. Chris Myers.",
+      "summary": "Conducted research in genetic design automation, GRN modeling, and simulation. Collaborated remotely with multi-disciplinary teams, applying CI/CD pipelines, cloud platforms, and modern ML frameworks.",
       "highlights": [
-        "GDA tool development using iBioSim",
-        "Innovative modeling automation techniques",
-        "Simulation and design of genetic regulatory networks"
+        "Advanced GDA tool development with iBioSim",
+        "Implemented innovative remote collaboration practices",
+        "Enhanced simulation and design of genetic regulatory networks"
       ]
     },
     {
@@ -58,11 +58,11 @@
       "location": "Buenos Aires, Argentina",
       "startDate": "2010-01-01",
       "endDate": "2014-01-01",
-      "summary": "Performed research in genetics and ecology. Responsibilities included maintaining Drosophila isogenetic lines, coordinating specimen collection and expedition teams, and contributing to scientific papers and technical reports.",
+      "summary": "Performed research in genetics and ecology, including maintaining Drosophila isogenetic lines, coordinating field expeditions, and contributing to scientific publications and technical reports.",
       "highlights": [
         "Coordinated field expeditions and permit negotiations",
         "Managed statistical programs and databases",
-        "Trained new laboratory members"
+        "Mentored and trained new laboratory members"
       ]
     },
     {
@@ -79,7 +79,7 @@
       "location": "Buenos Aires, Argentina",
       "startDate": "2015-01-01",
       "endDate": "2017-01-01",
-      "summary": "Taught chemistry to high school students and coordinated Extended Essays in chemical research."
+      "summary": "Taught chemistry and coordinated Extended Essays in chemical research for high school students."
     },
     {
       "name": "Tarbut School",
@@ -87,7 +87,7 @@
       "location": "Buenos Aires, Argentina",
       "startDate": "2014-01-01",
       "endDate": "2015-01-01",
-      "summary": "Taught primary and high school science and mathematics and organized Mathematical Ingenious Olympiads."
+      "summary": "Taught primary and high school science and mathematics; organized Mathematical Ingenious Olympiads."
     },
     {
       "name": "COMBINE Standards",
@@ -95,7 +95,7 @@
       "location": "Online",
       "startDate": "2019-01-01",
       "endDate": "2022-01-01",
-      "summary": "Curated and maintained the Synthetic Biology Open Language standards and related documents, coordinated change proposals, and supported software libraries for the synthetic biology community."
+      "summary": "Curated and maintained the SBOL standard for representing biological designs. Coordinated change proposals and supported software libraries for the synthetic biology community."
     }
   ],
   "education": [
@@ -165,14 +165,64 @@
   ],
   "skills": [
     {
-      "name": "Programming",
+      "name": "Software Engineering",
       "level": "Expert",
       "keywords": [
         "Python",
         "Java",
         "C++",
         "JavaScript",
-        "R"
+        "R",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Google Cloud",
+        "TensorFlow",
+        "PyTorch",
+        "scikit-learn",
+        "pyomo"
+      ]
+    },
+    {
+      "name": "Optimization & Operations Research",
+      "level": "Expert",
+      "keywords": [
+        "CPLEX",
+        "Gurobi",
+        "Pyomo",
+        "Linear Programming",
+        "Nonlinear Programming",
+        "Integer Programming"
+      ]
+    },
+    {
+      "name": "Web Scraping",
+      "level": "Intermediate",
+      "keywords": [
+        "Scrapy",
+        "Splash",
+        "Selenium"
+      ]
+    },
+    {
+      "name": "Probabilistic Modeling",
+      "level": "Advanced",
+      "keywords": [
+        "Gaussian Process Regression",
+        "Bayesian Machine Learning"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "Expert",
+      "keywords": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Data Analysis",
+        "Neural Networks"
       ]
     },
     {
@@ -224,6 +274,13 @@
         "Biomedical Engineering",
         "Data Science"
       ]
+    },
+    {
+      "name": "Electronics & DIY",
+      "keywords": [
+        "Arduino",
+        "Electronic Projects"
+      ]
     }
   ],
   "certificates": [
@@ -238,6 +295,41 @@
       "date": "2023-01-01",
       "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
       "issuer": "Udemy"
+    },
+    {
+      "name": "Optimization with Python: Solve Operations Research Problems",
+      "url": "https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/?couponCode=ST10MT30325G2",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Optimization with Python: Complete Pyomo Bootcamp A-Z",
+      "url": "https://www.udemy.com/course/optimization-with-python-complete-pyomo-bootcamp-a-z/?couponCode=ST10MT30325G2",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "AI and Meta-Heuristics (Combinatorial Optimization) Python",
+      "url": "https://www.udemy.com/course/ai-and-combinatorial-optimization-with-meta-heuristics/?couponCode=ST10MT30325G2",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Modern Web Scraping with Python using Scrapy Splash Selenium",
+      "url": "https://www.udemy.com/course/web-scraping-in-python-using-scrapy-and-splash/?couponCode=ST10MT30325G2",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Deployment of Machine Learning Models",
+      "url": "https://www.udemy.com/course/deployment-of-machine-learning-models/?couponCode=ST10MT30325G2",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Pyomo Bootcamp: Python Optimization from Beginner to Advance",
+      "url": "https://www.udemy.com/course/optimization-in-python/?couponCode=ST10MT30325G2",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Theory of Gaussian Process Regression for Machine Learning",
+      "url": "https://www.udemy.com/course/gaussian-process-regression-fundamentals-and-application/?couponCode=ST10MT30325G2",
+      "issuer": "Udemy"
     }
   ],
   "volunteer": [
@@ -247,11 +339,10 @@
       "url": "https://www.meetup.com/es/biohackingBA/",
       "startDate": "2013-01-01",
       "endDate": "2017-01-01",
-      "summary": "Organized talks, workshops, and DIY projects to promote innovation in science and engineering.",
+      "summary": "Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology.",
       "highlights": [
-        "Recycling old refrigerators into incubators",
-        "Manufacturing a PCR thermocycler using Arduino",
-        "Developing open hardware projects"
+        "Organized hackathons for SBOL and FAIR data practices",
+        "Coordinated interdisciplinary teams and managed remote collaboration"
       ]
     },
     {
@@ -278,10 +369,62 @@
       ],
       "entity": "DARPA",
       "type": "research project"
+    },
+    {
+      "name": "SBOL Standard Contribution",
+      "description": "Contributed to the development of SBOL, a free and open-source standard for representing biological designs.",
+      "keywords": [
+        "SBOL",
+        "Synthetic Biology",
+        "Standard"
+      ],
+      "roles": [
+        "Contributor"
+      ],
+      "entity": "COMBINE Standards",
+      "type": "community project"
+    },
+    {
+      "name": "iBioSim Development",
+      "description": "Worked on iBioSim—a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.",
+      "keywords": [
+        "iBioSim",
+        "SBML",
+        "SBOL",
+        "Genetic Circuits"
+      ],
+      "roles": [
+        "Developer"
+      ],
+      "entity": "Genetic Logic Lab",
+      "type": "research project"
+    }
+  ],
+  "sideProjects": [
+    {
+      "name": "Detecting Fake News",
+      "description": "A machine learning project that uses advanced algorithms to detect fake news. Developed in Python and hosted on GitHub.",
+      "url": "https://github.com/Fontanapink/Detecting-Fake-News-A-Machine-Learning-Approach",
+      "startDate": "2022-01-01",
+      "keywords": [
+        "Machine Learning",
+        "Fake News Detection",
+        "Python"
+      ]
+    },
+    {
+      "name": "Arduino & Electronics Projects",
+      "description": "Hobby projects involving Arduino and other electronic platforms to create interactive hardware solutions.",
+      "startDate": "2018-01-01",
+      "keywords": [
+        "Arduino",
+        "Electronics",
+        "DIY"
+      ]
     }
   ],
   "meta": {
-    "version": "v1.0.0",
-    "lastModified": "2025-02-19T00:00:00"
+    "version": "v2.0.0",
+    "lastModified": "2025-03-03T00:00:00"
   }
 }
