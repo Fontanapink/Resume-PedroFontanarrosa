@@ -1,0 +1,33 @@
+{
+  "name": "resume-pedrofontanarrosa",
+  "version": "1.0.0",
+  "description": "My JSON resume and automated build for ATS-friendly PDF and personal website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fontanapink/Resume-PedroFontanarrosa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fontanapink/Resume-PedroFontanarrosa/issues"
+  },
+  "homepage": "https://github.com/Fontanapink/Resume-PedroFontanarrosa#readme",
+  "dependencies": {
+    "jsonresume-theme-class": "^0.1.2",
+    "jsonresume-theme-dev-ats": "^1.0.1",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.23.0",
+    "jsonresume-theme-modern": "^0.0.18",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "puppeteer": "^24.3.1",
+    "resumed": "^4.1.0"
+  }
+}
