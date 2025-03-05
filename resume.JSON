@@ -7,7 +7,7 @@
     "email": "pfontanarrosa@gmail.com",
     "phone": "+44 (756) 459 4770",
     "url": "https://fontanapink.github.io",
-    "summary": "Broadly skilled researcher with a strong foundation in both computational/software engineering and biological sciences. I have extensive experience in genetic circuit design, machine learning, and data science—demonstrated through contributions to SBOL and iBioSim as well as remote collaborative projects. Passionate about using modern software development practices and advanced analytical techniques to solve complex, multidisciplinary problems.",
+    "summary": "Broadly skilled researcher with a strong foundation in both computational/software engineering and biological sciences. I have extensive experience in genetic circuit design, machine learning, and data science—demonstrated through contributions to SBOL and iBioSim as well as remote collaborative projects. I am actively developing advanced ML algorithms to model and predict the dynamics and structure of biological systems, a methodology originally applied to microbial communities but broadly applicable to any system.",
     "location": {
       "city": "London",
       "region": "England",
@@ -216,13 +216,16 @@
       ]
     },
     {
-      "name": "Data Science",
+      "name": "Data Science & Machine Learning",
       "level": "Expert",
       "keywords": [
         "Machine Learning",
         "Artificial Intelligence",
         "Data Analysis",
-        "Neural Networks"
+        "Neural Networks",
+        "Physics-Informed Neural Networks",
+        "Bayesian Inference",
+        "VAR Regression"
       ]
     },
     {
@@ -397,6 +400,22 @@
         "Developer"
       ],
       "entity": "Genetic Logic Lab",
+      "type": "research project"
+    },
+    {
+      "name": "Advanced Machine Learning for Biological Systems",
+      "description": "Developing and applying novel machine learning algorithms to model and predict the structure and dynamics of biological systems. Techniques include custom Gaussian Process regression with covariance (kernel) designs, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks for scalable inference with limited samples. Although initially applied to microbial systems, these methods are generalizable to any biological system.",
+      "keywords": [
+        "Machine Learning",
+        "Gaussian Process Regression",
+        "Bayesian Inference",
+        "VAR Regression",
+        "Physics-Informed Neural Networks"
+      ],
+      "roles": [
+        "Algorithm Developer"
+      ],
+      "entity": "Research Projects",
       "type": "research project"
     }
   ],
