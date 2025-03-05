@@ -7,7 +7,7 @@
     "email": "pfontanarrosa@gmail.com",
     "phone": "+44 (756) 459 4770",
     "url": "https://fontanapink.github.io",
-    "summary": "Broadly skilled researcher with a strong foundation in both computational/software engineering and biological sciences. I have extensive experience in genetic circuit design, machine learning, and data science—demonstrated through contributions to SBOL and iBioSim as well as remote collaborative projects. I am actively developing advanced ML algorithms to model and predict the dynamics and structure of biological systems, a methodology originally applied to microbial communities but broadly applicable to any system.",
+    "summary": "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. I have extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during my Master's and PhD research. As a postdoc at UCL, I am expanding into advanced machine learning algorithm development—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. I excel in remote, multidisciplinary collaborations.",
     "location": {
       "city": "London",
       "region": "England",
@@ -28,66 +28,42 @@
   },
   "work": [
     {
-      "name": "Computational Systems and Synthetic Biology Lab, College University London",
-      "position": "Research Assistantship",
+      "name": "Computational Systems and Synthetic Biology Lab, University College London",
+      "position": "Postdoctoral Researcher",
       "location": "London, UK",
-      "startDate": "2023-01-01",
-      "summary": "Developing genetic design automation software, modeling and simulation of genetic regulatory networks, and designing genetic circuits for specific applications under the supervision of Prof. Chris Barnes. Actively collaborating with international teams using remote work tools (Slack, Zoom) and cloud services.",
+      "startDate": "2023-06-15",
+      "summary": "Currently developing advanced machine learning algorithms for modeling and predicting the dynamics of biological systems. Focused on designing custom Gaussian process regression kernels, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks. Leading remote, interdisciplinary collaborations to integrate AI into biological design.",
       "highlights": [
-        "Developed advanced GDA tools for iBioSim",
-        "Pioneered novel modeling automation techniques",
-        "Maintained and enhanced genetic parts repositories"
+        "Pioneering scalable ML methods for inferring biological structure and dynamics",
+        "Leveraging cloud platforms and modern CI/CD workflows in research collaborations",
+        "Coordinating remote teams using Slack, Zoom, and collaborative code-hosting platforms"
       ]
     },
     {
       "name": "Genetic Logic Lab, University of Boulder",
-      "position": "Research Assistantship",
+      "position": "Postdoctoral Researcher",
       "location": "Boulder, CO, USA",
-      "startDate": "2017-01-01",
-      "endDate": "2023-01-01",
-      "summary": "Conducted research in genetic design automation, GRN modeling, and simulation. Collaborated remotely with multi-disciplinary teams, applying CI/CD pipelines, cloud platforms, and modern ML frameworks.",
+      "startDate": "2022-08-23",
+      "endDate": "2023-06-01",
+      "summary": "Developed Genetic Design Automation (GDA) tools and mathematical models for synthetic biology. Focused on computational methods for genetic circuit simulation and design in a collaborative, interdisciplinary setting.",
       "highlights": [
-        "Advanced GDA tool development with iBioSim",
-        "Implemented innovative remote collaboration practices",
-        "Enhanced simulation and design of genetic regulatory networks"
-      ]
-    },
-    {
-      "name": "Evolutionary Studies Laboratory, University of Buenos Aires",
-      "position": "Research Assistantship",
-      "location": "Buenos Aires, Argentina",
-      "startDate": "2010-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Performed research in genetics and ecology, including maintaining Drosophila isogenetic lines, coordinating field expeditions, and contributing to scientific publications and technical reports.",
-      "highlights": [
-        "Coordinated field expeditions and permit negotiations",
-        "Managed statistical programs and databases",
-        "Mentored and trained new laboratory members"
+        "Enhanced iBioSim functionalities for genetic circuit modeling",
+        "Developed robust mathematical models for genetic design",
+        "Collaborated with international research teams using cloud-based tools"
       ]
     },
     {
       "name": "University of Utah",
-      "position": "Graduate Teaching Assistant",
-      "location": "Utah, USA",
-      "startDate": "2020-09-01",
-      "endDate": "2020-12-01",
-      "summary": "Assisted in teaching Fundamentals of Biomedical Engineering II by leading discussion groups and grading assignments."
-    },
-    {
-      "name": "Northlands School",
-      "position": "Highschool Chemistry Teacher",
-      "location": "Buenos Aires, Argentina",
-      "startDate": "2015-01-01",
-      "endDate": "2017-01-01",
-      "summary": "Taught chemistry and coordinated Extended Essays in chemical research for high school students."
-    },
-    {
-      "name": "Tarbut School",
-      "position": "Science and Mathematics Teacher",
-      "location": "Buenos Aires, Argentina",
-      "startDate": "2014-01-01",
-      "endDate": "2015-01-01",
-      "summary": "Taught primary and high school science and mathematics; organized Mathematical Ingenious Olympiads."
+      "position": "Research Assistant (PhD Researcher)",
+      "location": "Salt Lake City, UT, USA",
+      "startDate": "2019-08-16",
+      "endDate": "2022-08-22",
+      "summary": "Conducted advanced research in Biomedical Engineering (Synthetic Biology Track) focused on developing computational models and GDA tools for genetic circuit design. Emphasized mathematical modeling and simulation to support experimental research.",
+      "highlights": [
+        "Developed and refined computational models for genetic regulatory networks",
+        "Supported experimental design with simulation-based predictions",
+        "Collaborated on interdisciplinary projects in synthetic biology"
+      ]
     },
     {
       "name": "COMBINE Standards",
@@ -95,7 +71,62 @@
       "location": "Online",
       "startDate": "2019-01-01",
       "endDate": "2022-01-01",
-      "summary": "Curated and maintained the SBOL standard for representing biological designs. Coordinated change proposals and supported software libraries for the synthetic biology community."
+      "summary": "Curated and maintained the Synthetic Biology Open Language (SBOL) standard for representing biological designs. Coordinated change proposals and supported the development of software libraries and community documentation.",
+      "highlights": [
+        "Led weekly meetings to coordinate SBOL standard updates",
+        "Facilitated community-driven revisions and improvements to SBOL",
+        "Enhanced interoperability in synthetic biology data exchange"
+      ]
+    },
+    {
+      "name": "University of Utah",
+      "position": "Research Assistant (Master's Researcher)",
+      "location": "Salt Lake City, UT, USA",
+      "startDate": "2017-08-22",
+      "endDate": "2019-08-15",
+      "summary": "Performed research in Bioengineering (Synthetic Biology Track) focusing on early-stage development of computational tools for genetic design. Collaborated with faculty and peers on mathematical modeling and simulation projects.",
+      "highlights": [
+        "Contributed to the development of preliminary GDA tools",
+        "Assisted in mathematical modeling of genetic circuits",
+        "Engaged in interdisciplinary research in synthetic biology"
+      ]
+    },
+    {
+      "name": "Northlands School",
+      "position": "Highschool Chemistry Teacher",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "2015-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Taught chemistry to high school students and coordinated Extended Essays in chemical research.",
+      "highlights": [
+        "Developed lesson plans that enhanced student engagement in scientific topics",
+        "Mentored students in chemical research projects"
+      ]
+    },
+    {
+      "name": "Tarbut School",
+      "position": "Science and Mathematics Teacher",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
+      "summary": "Taught science and mathematics to primary and high school students and organized Mathematical Ingenious Olympiads.",
+      "highlights": [
+        "Designed and implemented creative educational programs",
+        "Coordinated school-wide science and math competitions"
+      ]
+    },
+    {
+      "name": "Evolutionary Studies Laboratory, University of Buenos Aires",
+      "position": "Research Assistant",
+      "location": "Buenos Aires, Argentina",
+      "startDate": "2010-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Conducted research in genetics and ecology, including maintaining Drosophila isogenetic lines, coordinating field expeditions, managing statistical programs and databases, and mentoring lab members.",
+      "highlights": [
+        "Coordinated field expeditions and permit negotiations",
+        "Managed statistical programs and databases",
+        "Trained new laboratory members"
+      ]
     }
   ],
   "education": [
@@ -103,8 +134,8 @@
       "institution": "University of Utah",
       "area": "Biomedical Engineering (Synthetic Biology Track)",
       "studyType": "Ph.D.",
-      "startDate": "2019-01-01",
-      "endDate": "2022-01-01",
+      "startDate": "2019-08-16",
+      "endDate": "2022-08-22",
       "score": "3.8/4.0",
       "courses": []
     },
@@ -112,8 +143,8 @@
       "institution": "University of Utah",
       "area": "Bioengineering (Synthetic Biology Track)",
       "studyType": "Master",
-      "startDate": "2017-01-01",
-      "endDate": "2019-01-01",
+      "startDate": "2017-08-22",
+      "endDate": "2019-08-15",
       "score": "3.67/4.0",
       "courses": []
     },
@@ -354,6 +385,13 @@
       "startDate": "2010-01-01",
       "endDate": "2012-01-01",
       "summary": "Coordinated the annual Biology Week to promote science careers among high school students."
+    },
+    {
+      "organization": "Data-Centric Biological Design & Engineering Interest Group",
+      "position": "Organizer",
+      "url": "https://data-centric-biodesign-tig.github.io/",
+      "startDate": "2023-01-01",
+      "summary": "Organize a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. The group unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
     }
   ],
   "projects": [
@@ -404,7 +442,7 @@
     },
     {
       "name": "Advanced Machine Learning for Biological Systems",
-      "description": "Developing and applying novel machine learning algorithms to model and predict the structure and dynamics of biological systems. Techniques include custom Gaussian Process regression with covariance (kernel) designs, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks for scalable inference with limited samples. Although initially applied to microbial systems, these methods are generalizable to any biological system.",
+      "description": "Developing and applying novel machine learning algorithms to model and predict the structure and dynamics of biological systems. Techniques include custom Gaussian process regression with covariance (kernel) designs, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks for scalable inference with limited samples. Originally applied to microbial systems, these methods are generalizable to any biological system.",
       "keywords": [
         "Machine Learning",
         "Gaussian Process Regression",
