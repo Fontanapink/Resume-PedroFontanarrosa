@@ -1,6 +1,7 @@
 {
   "name": "resume-pedrofontanarrosa",
   "version": "1.0.0",
+  "type": "module",
   "description": "My JSON resume and automated build for ATS-friendly PDF and personal website",
   "main": "index.js",
   "directories": {
