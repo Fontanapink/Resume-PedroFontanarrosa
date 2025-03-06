@@ -1,721 +1,1829 @@
 <!doctype html>
 <html>
-    <head>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Pedro Fontanarrosa TEST</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-    <title>Pedro Fontanarrosa</title>
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 
-    <style>
-    /* Template level */
 body {
-    font-family: Georgia, serif;
-    font-size: 11px;
-    margin: 24px 48px;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
 }
 
 h1 {
-    font-size: 26px;
-    text-align: center;
-    margin: 5px;
+  font-size: 2rem;
 }
 
 h2 {
-    border-width: 1px;
-    border-style: none none solid none;
-    margin: 10px 0 2.5px 0;
+  font-size: 1.67rem;
 }
 
-section {
-    margin: 3px 0;
+h3 {
+  font-size: 1.27rem;
 }
 
-ul {
-    margin: 0;
-    padding-left: 20px;
+em {
+  color: #757575;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.section.summary header {
+  margin-top: 1rem;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
 }
 
 .item {
-    margin-top: 8px;
+  overflow: hidden;
 }
 
-.item>.item-header {
-    float: left;
-    display: block;
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
 }
 
-.item>.item-header>.item-header-title {
-    font-weight: bold;
+.fa.social {
+  font-size: 1.1em;
 }
 
-.item>.item-header>.item-header-subtitle {
-    font-style: italic;
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
 }
 
-.item>.item-details {
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 15em;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 1rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
     float: right;
-    text-align: right;
+    font-weight: 600;
+    color: #000;
+  }
 }
 
-.item>.item-details>.item-details-title {
-    font-weight: bold;
-}
+/****************
+*		LAPTOP
+****************/
 
-.clearfix {
-    clear: both;
-}
-
-.centered {
-    text-align: center;
-}
-
-/* Section specific */
-/* basics */
-.vertical-separator {
-    text-align: center;
-    padding: 0 10px;
-}
-
-.vertical-separator:not(:first-child) {
-    border-left: 1px solid #000;
-    text-align: center;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-}
-.col {
-    flex: 1;
-    min-width: 50%;
-    box-sizing: border-box;
-    padding: 10px;
-}
-.profile-details {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
     float: left;
-}
-.title-subtitle {
-    flex: 1;
-    min-width: 80px;
-}
-.url {
-    margin-left: 20px;
-    word-break: break-all; 
-    overflow-wrap: break-word; 
-}
-a {
-    word-break: break-all;
-    overflow-wrap: break-word;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
 }
 
-/* Set some print settings. */
 @media print {
-    @page {
-        size: portrait;
-        margin: 10mm 25mm;
-    }
-    .resume {
-        max-width: 100%;
-        border: 0px;
-        background: #fff;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-    body,
-    html,
-    .resume {
-        margin: 0px;
-        padding: 0px;
-    }
-    .controls {
-        display: none;
-    }
-    .section {
-        page-break-inside: avoid; 
-        margin-bottom: 20px; 
-    }
-
-    .section h2 {
-        page-break-after: avoid; 
-    }
-
-    .row, .col {
-        page-break-inside: avoid; 
-    }
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
+  #profiles .url .show-only-url-print {
+    display: none;
+  }
+  #profiles .url a::after {
+    content: attr(href);
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company a {
+    color: #40484f;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    border-bottom: 1px solid #fdfdfd;
+    margin: .5em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: ", ";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 0;
+    padding: 0;
+  }
+  #skills .level {
+    margin: 0.1rem 0;
+    font-weight: 400;
+  }
+  #skills .keywords {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  .highlights > li > p {
+    margin-bottom: 0.3em;
+  }
+  ul.keywords::before {
+    content: "Skills: ";
+    font-size: 1rem;
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+    font-size: 1rem;
+  }
+  ul.keywords li,
+  ul.courses li {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-location-dot:before {
+    padding-left: 0.1em;
+  }
 }
-    </style>
 
-    </head>
-    <body>
-
-    <div id="resume">
-        <div class="section">
-            <section id="basics">
-                <h1>Pedro Fontanarrosa</h1>
-                <div class="contact centered">
-            <span class="vertical-separator">Multidisciplinary Researcher &amp; Software Engineer in Synthetic Biology</span><span class="vertical-separator"><a href="mailto:pfontanarrosa@gmail.com">pfontanarrosa@gmail.com</a></span><span class="vertical-separator">+44 (756) 459 4770</span>        <span class="vertical-separator">London, GB</span>
-            <span class="vertical-separator"><a href="https://fontanapink.github.io">fontanapink.github.io</a></span>    </div>
-                <div class="summary">
-                    <h2>Summary</h2>
-                    <p>Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. I have extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during my Master's and PhD research. As a postdoc at UCL, I am expanding into advanced machine learning algorithm development—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. I excel in remote, multidisciplinary collaborations.</p>
-                </div>
-            </section>
-        </div>
-        <div class="section">
-            <section id="skills">
-                <h2>Skills</h2>
-                <ul class="item">
-                    <li>
-                        <strong>Software Engineering</strong>: Python, Java, C++, JavaScript, R, Git, GitHub, GitLab, CI/CD, Docker, Kubernetes, Google Cloud, TensorFlow, PyTorch, scikit-learn, pyomo
-                    </li>
-                    <li>
-                        <strong>Optimization &amp; Operations Research</strong>: CPLEX, Gurobi, Pyomo, Linear Programming, Nonlinear Programming, Integer Programming
-                    </li>
-                    <li>
-                        <strong>Web Scraping</strong>: Scrapy, Splash, Selenium
-                    </li>
-                    <li>
-                        <strong>Probabilistic Modeling</strong>: Gaussian Process Regression, Bayesian Machine Learning
-                    </li>
-                    <li>
-                        <strong>Data Science &amp; Machine Learning</strong>: Machine Learning, Artificial Intelligence, Data Analysis, Neural Networks, Physics-Informed Neural Networks, Bayesian Inference, VAR Regression
-                    </li>
-                    <li>
-                        <strong>Writing</strong>: LaTeX
-                    </li>
-                    <li>
-                        <strong>Web Development</strong>: HTML, Hugo
-                    </li>
-                    <li>
-                        <strong>Databases</strong>: SQL
-                    </li>
-                </ul>
-            </section>
-        </div>
-        <div class="section">
-            <section id="work">
-                <h2>Work Experience</h2>
-            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Computational Systems and Synthetic Biology Lab, University College London
-                    </div>
-                    <div class="item-header-subtitle">
-                        Postdoctoral Researcher
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        London, UK
-                    </div>
-                    <div class="date">
-                        Jun 2023 — Present
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Developing robust Python packages for genetic design automation and modeling inference</li>
-                            <li>Creating and adapting CI/CD pipelines for scalable computational biology workflows</li>
-                            <li>Applying and advancing machine learning (GP, VAR, NN) and Bayesian optimization algorithms to enhance predictive modeling and system design</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Genetic Logic Lab, University of Boulder
-                    </div>
-                    <div class="item-header-subtitle">
-                        Postdoctoral Researcher
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        Boulder, CO, USA
-                    </div>
-                    <div class="date">
-                        Aug 2022 — Jun 2023
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Enhanced iBioSim functionalities for genetic circuit modeling</li>
-                            <li>Developed robust mathematical models for genetic design</li>
-                            <li>Collaborated with international research teams using cloud-based tools</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        University of Utah
-                    </div>
-                    <div class="item-header-subtitle">
-                        Research Assistant (PhD Researcher)
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        Salt Lake City, UT, USA
-                    </div>
-                    <div class="date">
-                        Aug 2019 — Aug 2022
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Developed and refined computational models for genetic regulatory networks</li>
-                            <li>Supported experimental design with simulation-based predictions</li>
-                            <li>Collaborated on interdisciplinary projects in synthetic biology</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        COMBINE Standards
-                    </div>
-                    <div class="item-header-subtitle">
-                        SBOL Editor
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        Online
-                    </div>
-                    <div class="date">
-                        Jan 2019 — Jan 2022
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Led weekly meetings to coordinate SBOL standard updates</li>
-                            <li>Facilitated community-driven revisions and improvements to SBOL</li>
-                            <li>Enhanced interoperability in synthetic biology data exchange</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        University of Utah
-                    </div>
-                    <div class="item-header-subtitle">
-                        Research Assistant (Master&#x27;s Researcher)
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        Salt Lake City, UT, USA
-                    </div>
-                    <div class="date">
-                        Aug 2017 — Aug 2019
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Contributed to the development of preliminary GDA tools</li>
-                            <li>Assisted in mathematical modeling of genetic circuits</li>
-                            <li>Engaged in interdisciplinary research in synthetic biology</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Northlands School
-                    </div>
-                    <div class="item-header-subtitle">
-                        Highschool Chemistry Teacher
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        Buenos Aires, Argentina
-                    </div>
-                    <div class="date">
-                        Jan 2015 — Jan 2017
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Developed lesson plans that enhanced student engagement in scientific topics</li>
-                            <li>Mentored students in chemical research projects</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Tarbut School
-                    </div>
-                    <div class="item-header-subtitle">
-                        Science and Mathematics Teacher
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        Buenos Aires, Argentina
-                    </div>
-                    <div class="date">
-                        Jan 2014 — Jan 2015
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Designed and implemented creative educational programs</li>
-                            <li>Coordinated school-wide science and math competitions</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Evolutionary Studies Laboratory, University of Buenos Aires
-                    </div>
-                    <div class="item-header-subtitle">
-                        Research Assistant
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="item-details-title">
-                        Buenos Aires, Argentina
-                    </div>
-                    <div class="date">
-                        Jan 2010 — Jan 2014
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                
-                        <ul class="highlights">
-                            <li>Coordinated field expeditions and permit negotiations</li>
-                            <li>Managed statistical programs and databases</li>
-                            <li>Trained new laboratory members</li>
-                        </ul>
-            </div></section>
-        </div>
-        <div class="section">
-            <section id="volunteer">
-                <h2>Volunteering</h2>
-            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Biohacking BA
-                    </div>
-                    <div class="item-header-subtitle">
-                        Volunteer Organizer
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="date">
-                        Jan 2013 — Jan 2017
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                        <div class="summary">
-                            <p>Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology.</p>
-                        </div>
-                
-                        <ul class="highlights">
-                            <li>Organized hackathons for SBOL and FAIR data practices</li>
-                            <li>Coordinated interdisciplinary teams and managed remote collaboration</li>
-                        </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        University of Buenos Aires Biology Week
-                    </div>
-                    <div class="item-header-subtitle">
-                        Event Organizer
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="date">
-                        Jan 2010 — Jan 2012
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                        <div class="summary">
-                            <p>Coordinated the annual Biology Week to promote science careers among high school students.</p>
-                        </div>
-                
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Data-Centric Biological Design &amp; Engineering Interest Group
-                    </div>
-                    <div class="item-header-subtitle">
-                        Organizer
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="date">
-                        Jan 2023 — Present
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                        <div class="summary">
-                            <p>Organize a monthly seminar series under the Alan Turing Institute&#x27;s banner to leverage AI in advancing biological system engineering. The group unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact.</p>
-                        </div>
-                
-            </div></section>
-        </div>
-        <div class="section">
-            <section id="education">
-                <h2>Education</h2>
-            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        University of Utah
-                    </div>
-                    <div class="item-header-subtitle">
-                        Ph.D.
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="date">
-                        Aug 2019 — Aug 2022
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                    <ul>
-                        <li>
-                            <div class="score">
-                                3.8/4.0
-                            </div>
-                        </li>
-                    </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        University of Utah
-                    </div>
-                    <div class="item-header-subtitle">
-                        Master
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="date">
-                        Aug 2017 — Aug 2019
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                    <ul>
-                        <li>
-                            <div class="score">
-                                3.67/4.0
-                            </div>
-                        </li>
-                    </ul>
-            </div><div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        University of Buenos Aires
-                    </div>
-                    <div class="item-header-subtitle">
-                        Licentiate
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="date">
-                        Jan 2007 — Jan 2014
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                    <ul>
-                        <li>
-                            <div class="score">
-                                8.39/10.00
-                            </div>
-                        </li>
-                    </ul>
-            </div></section>
-        </div>
-        <div class="section">
-            <section id="profiles">
-                <h2>Profiles</h2>
-                <div class="item">
-                        <div class="row">
-                            <div class="col">
-                                
-                                    <div class="profile-details">
-                                        <div class="title-subtitle">
-                                            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        GitHub
-                    </div>
-                    <div class="item-header-subtitle">
-                        fontanapink
-                    </div>
-                </div>
-                <div class="item-details">
-                </div>
-                <div class="clearfix"></div>
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="image" src="pictures/Profile_Picture.png" alt="Pedro Fontanarrosa TEST" />
+    		<div class="middle">
+    			<h1 class="name">Pedro Fontanarrosa TEST</h1>
+    			<h2 class="label">Multidisciplinary Researcher &amp; Software Engineer in Synthetic Biology</h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="city">London,</span>
+    			<span class="region">England</span>
+    			<span class="countryCode">(GB)</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="fa-regular fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:pfontanarrosa@gmail.com">pfontanarrosa@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa-solid fa-mobile-screen-button"></span>
+    				<a class="hide-href-print" href="tel:+44 (756) 459 4770">+44 (756) 459 4770</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa-brands fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/Fontanapink"><span class="show-only-url-print">fontanapink</span></a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa-brands fa-orcid orcid social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://orcid.org/0000-0002-0535-2684"><span class="show-only-url-print">0000-0002-0535-2684</span></a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section summary">
+        <header>
+          <h2 class="section-title">summary</h2>
+        </header>
+    		<section class="main-summary">
+    			<div><p><p>Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. I have extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during my Master's and PhD research. As a postdoc at UCL, I am expanding into advanced machine learning algorithm development—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. I excel in remote, multidisciplinary collaborations.</p></p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Skills</h2>
+      </header>
+      <section id="skills">
+        <div class="item">
+          <h3 class="name">
+            Software Engineering
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
             </div>
-                                        </div>
-                                        <div class="url">
-                                            <a href="https://github.com/Fontanapink"><a href="https://github.com/Fontanapink">github.com/Fontanapink</a></a>
-                                        </div>
-                                    </div>
-                                
-                            </div>
-                            <div class="col">
-                                
-                                    <div class="profile-details">
-                                        <div class="title-subtitle">
-                                            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        ORCID
-                    </div>
-                    <div class="item-header-subtitle">
-                        0000-0002-0535-2684
-                    </div>
-                </div>
-                <div class="item-details">
-                </div>
-                <div class="clearfix"></div>
+          <ul class="keywords">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>R</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitLab</li>
+            <li>CI/CD</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Google Cloud</li>
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>scikit-learn</li>
+            <li>pyomo</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Optimization &amp; Operations Research
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
             </div>
-                                        </div>
-                                        <div class="url">
-                                            <a href="https://orcid.org/0000-0002-0535-2684"><a href="https://orcid.org/0000-0002-0535-2684">orcid.org/0000-0002-0535-2684</a></a>
-                                        </div>
-                                    </div>
-                                
-                            </div>
-                        </div>
+          <ul class="keywords">
+            <li>CPLEX</li>
+            <li>Gurobi</li>
+            <li>Pyomo</li>
+            <li>Linear Programming</li>
+            <li>Nonlinear Programming</li>
+            <li>Integer Programming</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Web Scraping
+          </h3>
+            <div class="level intermediate">
+                <em>Intermediate</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>Scrapy</li>
+            <li>Splash</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Probabilistic Modeling
+          </h3>
+            <div class="level advanced">
+                <em>Advanced</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>Gaussian Process Regression</li>
+            <li>Bayesian Machine Learning</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Data Science &amp; Machine Learning
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Data Analysis</li>
+            <li>Neural Networks</li>
+            <li>Physics-Informed Neural Networks</li>
+            <li>Bayesian Inference</li>
+            <li>VAR Regression</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Writing
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>LaTeX</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Web Development
+          </h3>
+            <div class="level expert">
+                <em>Expert</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>HTML</li>
+            <li>Hugo</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Databases
+          </h3>
+            <div class="level intermediate">
+                <em>Intermediate</em>
+              <div class="bar"></div>
+            </div>
+          <ul class="keywords">
+            <li>SQL</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(8)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+            <label for="work-item-0"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Jun 2023</span>
+                <span class="endDate">- Current</span>
+              </div>
+              <div class="position">Postdoctoral Researcher</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            London, UK
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>As a Postdoctoral Researcher at UCL, I focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. I create and adapt CI/CD pipelines to streamline our software development lifecycle for computational biology, while applying and advancing machine learning techniques—including Gaussian processes, neural networks, and VAR models—and Bayesian optimization methods to improve the design and analysis of complex biological systems.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Developing robust Python packages for genetic design automation and modeling inference</p></p></li>
+              <li><p><p>Creating and adapting CI/CD pipelines for scalable computational biology workflows</p></p></li>
+              <li><p><p>Applying and advancing machine learning (GP, VAR, NN) and Bayesian optimization algorithms to enhance predictive modeling and system design</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-1"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Aug 2022</span>
+                <span class="endDate">- Jun 2023</span>
+              </div>
+              <div class="position">Postdoctoral Researcher</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Boulder, CO, USA
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Developed Genetic Design Automation (GDA) tools and mathematical models for synthetic biology. Focused on computational methods for genetic circuit simulation and design in a collaborative, interdisciplinary setting.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Enhanced iBioSim functionalities for genetic circuit modeling</p></p></li>
+              <li><p><p>Developed robust mathematical models for genetic design</p></p></li>
+              <li><p><p>Collaborated with international research teams using cloud-based tools</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-2"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Aug 2019</span>
+                <span class="endDate">- Aug 2022</span>
+              </div>
+              <div class="position">Research Assistant (PhD Researcher)</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Salt Lake City, UT, USA
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Conducted advanced research in Biomedical Engineering (Synthetic Biology Track) focused on developing computational models and GDA tools for genetic circuit design. Emphasized mathematical modeling and simulation to support experimental research.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Developed and refined computational models for genetic regulatory networks</p></p></li>
+              <li><p><p>Supported experimental design with simulation-based predictions</p></p></li>
+              <li><p><p>Collaborated on interdisciplinary projects in synthetic biology</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-3"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Jan 2019</span>
+                <span class="endDate">- Jan 2022</span>
+              </div>
+              <div class="position">SBOL Editor</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Online
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Curated and maintained the Synthetic Biology Open Language (SBOL) standard for representing biological designs. Coordinated change proposals and supported the development of software libraries and community documentation.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Led weekly meetings to coordinate SBOL standard updates</p></p></li>
+              <li><p><p>Facilitated community-driven revisions and improvements to SBOL</p></p></li>
+              <li><p><p>Enhanced interoperability in synthetic biology data exchange</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-4"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Aug 2017</span>
+                <span class="endDate">- Aug 2019</span>
+              </div>
+              <div class="position">Research Assistant (Master&#x27;s Researcher)</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Salt Lake City, UT, USA
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Performed research in Bioengineering (Synthetic Biology Track) focusing on early-stage development of computational tools for genetic design. Collaborated with faculty and peers on mathematical modeling and simulation projects.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Contributed to the development of preliminary GDA tools</p></p></li>
+              <li><p><p>Assisted in mathematical modeling of genetic circuits</p></p></li>
+              <li><p><p>Engaged in interdisciplinary research in synthetic biology</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-5"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Jan 2015</span>
+                <span class="endDate">- Jan 2017</span>
+              </div>
+              <div class="position">Highschool Chemistry Teacher</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Buenos Aires, Argentina
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Taught chemistry to high school students and coordinated Extended Essays in chemical research.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Developed lesson plans that enhanced student engagement in scientific topics</p></p></li>
+              <li><p><p>Mentored students in chemical research projects</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-6"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Jan 2014</span>
+                <span class="endDate">- Jan 2015</span>
+              </div>
+              <div class="position">Science and Mathematics Teacher</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Buenos Aires, Argentina
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Taught science and mathematics to primary and high school students and organized Mathematical Ingenious Olympiads.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Designed and implemented creative educational programs</p></p></li>
+              <li><p><p>Coordinated school-wide science and math competitions</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+            <label for="work-item-7"></label>
+    
+            <header class="clear">
+              <div class="date">
+                <span class="startDate">Jan 2010</span>
+                <span class="endDate">- Jan 2014</span>
+              </div>
+              <div class="position">Research Assistant</div>
+                <div class="company"></div>
+            </header>
+    
+          <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+            Buenos Aires, Argentina
+          </span>
+           <div class="item" id="work-item">
+            <div class="summary"><p><p>Conducted research in genetics and ecology, including maintaining Drosophila isogenetic lines, coordinating field expeditions, managing statistical programs and databases, and mentoring lab members.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Coordinated field expeditions and permit negotiations</p></p></li>
+              <li><p><p>Managed statistical programs and databases</p></p></li>
+              <li><p><p>Trained new laboratory members</p></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Projects <span class="item-count">(4)</span></h2>
+      </header>
+      <section id="projects">
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Synergistic Discovery and Design (SD2)</div>
+            <div class="date">
+              <span class="startDate">Jan 2018</span>
+              <span class="endDate">- Jun 2022</span>
+            </div>
+          </header>
+          <ul class="keywords">
+              <li>Synthetic Biology</li>
+              <li>Genetic Circuits</li>
+              <li>DARPA</li>
+          </ul>
+          <div class="item">
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">SBOL Standard Contribution</div>
+          </header>
+          <ul class="keywords">
+              <li>SBOL</li>
+              <li>Synthetic Biology</li>
+              <li>Standard</li>
+          </ul>
+          <div class="item">
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">iBioSim Development</div>
+          </header>
+          <ul class="keywords">
+              <li>iBioSim</li>
+              <li>SBML</li>
+              <li>SBOL</li>
+              <li>Genetic Circuits</li>
+          </ul>
+          <div class="item">
+          </div>
+        </section>
+        <section class="project-item">
+    
+          <header class="clear">
+            <div class="position">Advanced Machine Learning for Biological Systems</div>
+          </header>
+          <ul class="keywords">
+              <li>Machine Learning</li>
+              <li>Gaussian Process Regression</li>
+              <li>Bayesian Inference</li>
+              <li>VAR Regression</li>
+              <li>Physics-Informed Neural Networks</li>
+          </ul>
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Volunteer</h2>
+      </header>
+      <section id="volunteer">
+        <section class="volunteer-item">
+    
+          <label for="volunteer-item-0"></label>
+    
+          <header class="clear">
+             <div class="date">
+              <span class="startDate">
+                Jan 2013
+              </span>
+              <span class="endDate">
+                - Jan 2017
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="position">
+                Volunteer Organizer
+              </div>
+              <div class="organization">
+                Biohacking BA
+              </div>
+            </div>
+           
+          </header>
+          <div class="item">
+            <div class="summary"><p><p>Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Organized hackathons for SBOL and FAIR data practices</p></p></li>
+              <li><p><p>Coordinated interdisciplinary teams and managed remote collaboration</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+          <label for="volunteer-item-1"></label>
+    
+          <header class="clear">
+             <div class="date">
+              <span class="startDate">
+                Jan 2010
+              </span>
+              <span class="endDate">
+                - Jan 2012
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="position">
+                Event Organizer
+              </div>
+              <div class="organization">
+                University of Buenos Aires Biology Week
+              </div>
+            </div>
+           
+          </header>
+          <div class="item">
+            <div class="summary"><p><p>Coordinated the annual Biology Week to promote science careers among high school students.</p></p></div>
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+          <label for="volunteer-item-2"></label>
+    
+          <header class="clear">
+             <div class="date">
+              <span class="startDate">
+                Jan 2023
+              </span>
+              <span class="endDate">
+                - Current
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="position">
+                Organizer
+              </div>
+              <div class="organization">
+                Data-Centric Biological Design &amp; Engineering Interest Group
+              </div>
+            </div>
+           
+          </header>
+          <div class="item">
+            <div class="summary"><p><p>Organize a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. The group unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact.</p></p></div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(3)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2019
+              </span>
+              <span class="endDate">
+              - 2022
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Ph.D.
+              </div>
+              <div class="area">
+                Biomedical Engineering (Synthetic Biology Track)
+              </div>
+              <div class="institution">
+                University of Utah
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2017
+              </span>
+              <span class="endDate">
+              - 2019
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Master
+              </div>
+              <div class="area">
+                Bioengineering (Synthetic Biology Track)
+              </div>
+              <div class="institution">
+                University of Utah
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2007
+              </span>
+              <span class="endDate">
+              - 2014
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Licentiate
+              </div>
+              <div class="area">
+                Biological Sciences (Genetics, Evolution and Ecology)
+              </div>
+              <div class="institution">
+                University of Buenos Aires
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+      <section class="section">
+        <header>
+          <h2 class="section-title">Awards</h2>
+        </header>
+        <section id="awards">
+            <section class="award-item">
+                <label for="award-item-0"></label>
+    
+              <header class="clear">
+                  <div class="date">
+                    2017
+                  </div>
+                <div class="header-left">
+                    <div class="title">
+                      Fulbright and Argentine Presidential Fellowship in Science &amp; Technology
+                    </div>
+                    <div class="awarder">
+                      Argentine President’s Cabinet &amp; U.S. Embassy of Buenos Aires
+                    </div>
                 </div>
-            </section>
-        </div>
-        <div class="section">
-            <section id="certifications">
-                <h2>Certifications</h2>
-                <ul class="item">
-                    <li>
-                        <strong>Data Science Bootcamp</strong> : THE ERDŐS INSTITUTE 
-                    </li>
-                    <li>
-                        <strong>Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus [2023]</strong> : Udemy 
-                    </li>
-                    <li>
-                        <strong>Optimization with Python: Solve Operations Research Problems</strong> : Udemy 
-                    </li>
-                    <li>
-                        <strong>Optimization with Python: Complete Pyomo Bootcamp A-Z</strong> : Udemy 
-                    </li>
-                    <li>
-                        <strong>AI and Meta-Heuristics (Combinatorial Optimization) Python</strong> : Udemy 
-                    </li>
-                    <li>
-                        <strong>Modern Web Scraping with Python using Scrapy Splash Selenium</strong> : Udemy 
-                    </li>
-                    <li>
-                        <strong>Deployment of Machine Learning Models</strong> : Udemy 
-                    </li>
-                    <li>
-                        <strong>Pyomo Bootcamp: Python Optimization from Beginner to Advance</strong> : Udemy 
-                    </li>
-                    <li>
-                        <strong>Theory of Gaussian Process Regression for Machine Learning</strong> : Udemy 
-                    </li>
-                </ul>
-            </section>
-        </div>
-        <div class="section">
-            <section id="projects">
-              <h2>Projects</h2>
+              </header>
+    
               <div class="item">
-                  
-                    
-            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Synergistic Discovery and Design (SD2)
-                    </div>
-                    <div class="item-header-subtitle">
-                        Genetic circuit design for extreme environments enabled by models extracted from petabyte+ perturbation analyses.
-                    </div>
-                </div>
-                <div class="item-details">
-                    <div class="date">
-                        Jan 2018 — Jun 2022
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>        
-                    
-                  
-                    
-            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        SBOL Standard Contribution
-                    </div>
-                    <div class="item-header-subtitle">
-                        Contributed to the development of SBOL, a free and open-source standard for representing biological designs.
-                    </div>
-                </div>
-                <div class="item-details">
-                </div>
-                <div class="clearfix"></div>
-            </div>        
-                    
-                  
-                    
-            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        iBioSim Development
-                    </div>
-                    <div class="item-header-subtitle">
-                        Worked on iBioSim—a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.
-                    </div>
-                </div>
-                <div class="item-details">
-                </div>
-                <div class="clearfix"></div>
-            </div>        
-                    
-                  
-                    
-            <div class="item">
-                <div class="item-header">
-                    <div class="item-header-title">
-                        Advanced Machine Learning for Biological Systems
-                    </div>
-                    <div class="item-header-subtitle">
-                        Developing and applying novel machine learning algorithms to model and predict the structure and dynamics of biological systems. Techniques include custom Gaussian process regression with covariance (kernel) designs, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks for scalable inference with limited samples. Originally applied to microbial systems, these methods are generalizable to any biological system.
-                    </div>
-                </div>
-                <div class="item-details">
-                </div>
-                <div class="clearfix"></div>
-            </div>        
-                    
+                  <div class="summary"><p><p>Awarded to pursue a master’s degree in the United States starting Fall 2017.</p></p></div>
               </div>
             </section>
-        </div>
-        <div class="section">
-            <section id="awards">
-                <h2>Awards & Recognitions</h2>
-                <ul class="item">
-                    <li>
-                        <strong>Fulbright and Argentine Presidential Fellowship in Science &amp; Technology</strong>: Awarded to pursue a master’s degree in the United States starting Fall 2017.
-                    </li>
-                    <li>
-                        <strong>Research and Communication Excellency Award</strong>: Recognized for excellence in research and communication under the &#x27;Beca Estímulo&#x27; scholarship.
-                    </li>
-                    <li>
-                        <strong>Beca Estímulo (Encouragement Scholarship)</strong>: Supported research and development tasks in genetics and ecology.
-                    </li>
-                </ul>
-            </section>
-        </div>
-    </div>
+            <section class="award-item">
+                <label for="award-item-1"></label>
     
-    </body>
+              <header class="clear">
+                  <div class="date">
+                    2015
+                  </div>
+                <div class="header-left">
+                    <div class="title">
+                      Research and Communication Excellency Award
+                    </div>
+                    <div class="awarder">
+                      Ministry of Science and Technology, Argentinean government
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Recognized for excellence in research and communication under the 'Beca Estímulo' scholarship.</p></p></div>
+              </div>
+            </section>
+            <section class="award-item">
+                <label for="award-item-2"></label>
+    
+              <header class="clear">
+                  <div class="date">
+                    2011
+                  </div>
+                <div class="header-left">
+                    <div class="title">
+                      Beca Estímulo (Encouragement Scholarship)
+                    </div>
+                    <div class="awarder">
+                      University of Buenos Aires
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Supported research and development tasks in genetics and ecology.</p></p></div>
+              </div>
+            </section>
+        </section>
+      </section>
+      <section class="section">
+        <header>
+          <h2 class="section-title">Certificates</h2>
+        </header>
+        <section id="certificates">
+            <section class="certificate-item">
+              <header class="clear">
+                  <div class="date">
+                    Jan 2023
+                  </div>
+                <div class="header-left">
+                    <div class="name">
+                      Data Science Bootcamp
+                    </div>
+                    <div class="issuer">
+                      THE ERDŐS INSTITUTE
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/pedro-fontanarrosa">https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/pedro-fontanarrosa</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                  <div class="date">
+                    Jan 2023
+                  </div>
+                <div class="header-left">
+                    <div class="name">
+                      Machine Learning A-Z™: AI, Python &amp; R + ChatGPT Bonus [2023]
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/">https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      Optimization with Python: Solve Operations Research Problems
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/?couponCode&#x3D;ST10MT30325G2">https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/?couponCode&#x3D;ST10MT30325G2</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      Optimization with Python: Complete Pyomo Bootcamp A-Z
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/course/optimization-with-python-complete-pyomo-bootcamp-a-z/?couponCode&#x3D;ST10MT30325G2">https://www.udemy.com/course/optimization-with-python-complete-pyomo-bootcamp-a-z/?couponCode&#x3D;ST10MT30325G2</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      AI and Meta-Heuristics (Combinatorial Optimization) Python
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/course/ai-and-combinatorial-optimization-with-meta-heuristics/?couponCode&#x3D;ST10MT30325G2">https://www.udemy.com/course/ai-and-combinatorial-optimization-with-meta-heuristics/?couponCode&#x3D;ST10MT30325G2</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      Modern Web Scraping with Python using Scrapy Splash Selenium
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/course/web-scraping-in-python-using-scrapy-and-splash/?couponCode&#x3D;ST10MT30325G2">https://www.udemy.com/course/web-scraping-in-python-using-scrapy-and-splash/?couponCode&#x3D;ST10MT30325G2</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      Deployment of Machine Learning Models
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/course/deployment-of-machine-learning-models/?couponCode&#x3D;ST10MT30325G2">https://www.udemy.com/course/deployment-of-machine-learning-models/?couponCode&#x3D;ST10MT30325G2</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      Pyomo Bootcamp: Python Optimization from Beginner to Advance
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/course/optimization-in-python/?couponCode&#x3D;ST10MT30325G2">https://www.udemy.com/course/optimization-in-python/?couponCode&#x3D;ST10MT30325G2</a>
+                  </span>
+              </div>
+            </section>
+            <section class="certificate-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="name">
+                      Theory of Gaussian Process Regression for Machine Learning
+                    </div>
+                    <div class="issuer">
+                      Udemy
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <span class="url">
+                    <span class="fa-solid fa-up-right-from-square"></span>
+                    <a target="_blank" href="https://www.udemy.com/course/gaussian-process-regression-fundamentals-and-application/?couponCode&#x3D;ST10MT30325G2">https://www.udemy.com/course/gaussian-process-regression-fundamentals-and-application/?couponCode&#x3D;ST10MT30325G2</a>
+                  </span>
+              </div>
+            </section>
+        </section>
+      </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Publications</h2>
+      </header>
+      <section id="publications">
+        <section class="publication-item">
+          <label for="publication-item-0"></label>
+    
+          <header class="clear">
+            <span class="date">
+              Jan 2024
+            </span>
+            <div class="header-left">
+              <span class="name">
+                Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits
+              </span>
+              <span class="publisher">
+                in ACS Synthetic Biology
+              </span>
+            </div>
+           
+          </header>
+    
+          <div class="item">
+            <div class="summary"><p><p>An analysis of how model complexity impacts the robustness of synthetic genetic circuits.</p></p></div>
+          </div>
+        </section>
+        <section class="publication-item">
+          <label for="publication-item-1"></label>
+    
+          <header class="clear">
+            <span class="date">
+              Jan 2023
+            </span>
+            <div class="header-left">
+              <span class="name">
+                Synthetic Biology Open Language (SBOL) Version 3.1.0
+              </span>
+              <span class="publisher">
+                in Journal of Integrative Bioinformatics
+              </span>
+            </div>
+           
+          </header>
+    
+          <div class="item">
+            <div class="summary"><p><p>Describes the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering.</p></p></div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            Spanish
+          </h3>
+          <div class="item">
+            <div class="level fluency native">
+              <em>Native</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency proficient">
+              <em>Proficient</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Portuguese
+          </h3>
+          <div class="item">
+            <div class="level fluency intermediate">
+              <em>Intermediate</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            French
+          </h3>
+          <div class="item">
+            <div class="level fluency beginner">
+              <em>Beginner</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Synthetic Biology
+          </h3>
+          <ul class="keywords">
+            <li>Genetic Circuit Design</li>
+            <li>Biomedical Engineering</li>
+            <li>Data Science</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Electronics &amp; DIY
+          </h3>
+          <ul class="keywords">
+            <li>Arduino</li>
+            <li>Electronic Projects</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+  </body>
 </html>
