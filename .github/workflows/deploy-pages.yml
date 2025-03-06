@@ -1,26 +1,59 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy to GitHub Pages
 
 on:
-  workflow_run:
-    workflows: ["Build and Commit CV"]
-    types: [completed]
+  push:
+    branches: [ main ]  # or your default branch
 
 permissions:
   contents: write
+  pages: write       # for actions/deploy-pages
+  id-token: write    # for actions/deploy-pages
 
 jobs:
-  deploy:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs
-          publish_branch: gh-pages
-          force_orphan: true
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      # 1) Render temporary HTML (dev-ats) -> docs/temp-pdf.html
+      - name: Render PDF HTML with dev-ats theme
+        run: npx resumed render resume.JSON --theme jsonresume-theme-dev-ats --output docs/temp-pdf.html
+
+      # 2) Generate PDF
+      - name: Generate PDF CV
+        run: node generate-pdf.js
+
+      # 3) Render final HTML CV with stackoverflow theme
+      - name: Render final HTML CV with stackoverflow theme
+        run: npx resumed render resume.JSON --theme jsonresume-theme-stackoverflow --output docs/index.html
+
+      # 4) Upload docs/ folder as artifact for deployment
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: docs  # This is the folder containing index.html, cv.pdf, etc.
+
+  deploy:
+    needs: build       # ensures 'deploy' job runs after 'build' finishes
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        with:
+          # By default, it deploys the artifact from the 'build' job
+          token: ${{ secrets.GITHUB_TOKEN }}
+          #branch: gh-pages  # or another branch if you prefer
