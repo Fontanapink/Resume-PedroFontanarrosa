@@ -32,11 +32,11 @@
       "position": "Postdoctoral Researcher",
       "location": "London, UK",
       "startDate": "2023-06-15",
-      "summary": "Currently developing advanced machine learning algorithms for modeling and predicting the dynamics of biological systems. Focused on designing custom Gaussian process regression kernels, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks. Leading remote, interdisciplinary collaborations to integrate AI into biological design.",
+      "summary": "As a Postdoctoral Researcher at UCL, I focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. I create and adapt CI/CD pipelines to streamline our software development lifecycle for computational biology, while applying and advancing machine learning techniques—including Gaussian processes, neural networks, and VAR models—and Bayesian optimization methods to improve the design and analysis of complex biological systems.",
       "highlights": [
-        "Pioneering scalable ML methods for inferring biological structure and dynamics",
-        "Leveraging cloud platforms and modern CI/CD workflows in research collaborations",
-        "Coordinating remote teams using Slack, Zoom, and collaborative code-hosting platforms"
+        "Developing robust Python packages for genetic design automation and modeling inference",
+        "Creating and adapting CI/CD pipelines for scalable computational biology workflows",
+        "Applying and advancing machine learning (GP, VAR, NN) and Bayesian optimization algorithms to enhance predictive modeling and system design"
       ]
     },
     {
