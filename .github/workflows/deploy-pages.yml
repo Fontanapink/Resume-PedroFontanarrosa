@@ -38,7 +38,7 @@ jobs:
 
       # 4) Upload docs/ folder as artifact for deployment
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs  # This is the folder containing index.html, cv.pdf, etc.
 
@@ -52,7 +52,7 @@ jobs:
       id-token: write
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         with:
           # By default, it deploys the artifact from the 'build' job
           token: ${{ secrets.GITHUB_TOKEN }}
