@@ -1,4 +1,4 @@
-name: Build CV
+name: Build and Commit CV
 
 on:
   push:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # We'll reconfigure Git credentials below
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -26,7 +28,21 @@ jobs:
 
       - name: Generate PDF CV
         run: node generate-pdf.js
-        # Ensure generate-pdf.js is updated to use docs/temp-pdf.html
 
       - name: Render final HTML CV with stackoverflow theme
         run: npx resumed render resume.JSON --theme jsonresume-theme-stackoverflow --output docs/index.html
+
+      - name: Commit updated CV files
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add docs/index.html docs/cv.pdf
+          # Check if there are changes; if yes, commit with [skip ci] to avoid recursion
+          if ! git diff --cached --quiet; then
+            git commit -m "Update CV files [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
