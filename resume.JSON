@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Pedro Fontanarrosa TEST",
+    "name": "Pedro Fontanarrosa",
     "label": "Multidisciplinary Researcher & Software Engineer in Synthetic Biology",
-    "image": "pictures/Profile_Picture.png",
+    "image": "",
     "email": "pfontanarrosa@gmail.com",
     "phone": "+44 (756) 459 4770",
-    "url": "https://fontanapink.github.io",
+    "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
     "summary": "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. I have extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during my Master's and PhD research. As a postdoc at UCL, I am expanding into advanced machine learning algorithm development—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. I excel in remote, multidisciplinary collaborations.",
     "location": {
       "city": "London",
