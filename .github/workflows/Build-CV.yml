@@ -21,8 +21,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Render HTML CV
-        run: npx resumed render resume.json --theme jsonresume-theme-dev-ats --output docs/index.html
+      - name: Render PDF HTML with dev-ats theme
+        run: npx resumed render resume.JSON --theme jsonresume-theme-dev-ats --output docs/temp-pdf.html
 
       - name: Generate PDF CV
         run: node generate-pdf.js
+        # Ensure generate-pdf.js is updated to use docs/temp-pdf.html
+
+      - name: Render final HTML CV with stackoverflow theme
+        run: npx resumed render resume.JSON --theme jsonresume-theme-stackoverflow --output docs/index.html
