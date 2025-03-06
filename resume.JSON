@@ -368,6 +368,14 @@
   ],
   "volunteer": [
     {
+      "organization": "Data-Centric Biological Design & Engineering Interest Group",
+      "position": "Organizer",
+      "url": "https://data-centric-biodesign-tig.github.io/",
+      "startDate": "2024-10-01",
+      "endDate": "2025-05-01",
+      "summary": "Organize a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. The group unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
+    },
+    {
       "organization": "Biohacking BA",
       "position": "Volunteer Organizer",
       "url": "https://www.meetup.com/es/biohackingBA/",
@@ -385,13 +393,6 @@
       "startDate": "2010-01-01",
       "endDate": "2012-01-01",
       "summary": "Coordinated the annual Biology Week to promote science careers among high school students."
-    },
-    {
-      "organization": "Data-Centric Biological Design & Engineering Interest Group",
-      "position": "Organizer",
-      "url": "https://data-centric-biodesign-tig.github.io/",
-      "startDate": "2023-01-01",
-      "summary": "Organize a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. The group unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
     }
   ],
   "projects": [
