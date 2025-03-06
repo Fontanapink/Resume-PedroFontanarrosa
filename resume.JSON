@@ -7,7 +7,7 @@
     "email": "pfontanarrosa@gmail.com",
     "phone": "+44 (756) 459 4770",
     "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
-    "summary": "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. I have extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during my Master's and PhD research. As a postdoc at UCL, I am expanding into advanced machine learning algorithm development—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. I excel in remote, multidisciplinary collaborations.",
+    "summary": "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. I have extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during my Master's and PhD research. As a postdoc at UCL, I am expanding into advanced machine learning algorithm development\u2014designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. I excel in remote, multidisciplinary collaborations.",
     "location": {
       "city": "London",
       "region": "England",
@@ -32,7 +32,7 @@
       "position": "Postdoctoral Researcher",
       "location": "London, UK",
       "startDate": "2023-06-15",
-      "summary": "As a Postdoctoral Researcher at UCL, I focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. I create and adapt CI/CD pipelines to streamline our software development lifecycle for computational biology, while applying and advancing machine learning techniques—including Gaussian processes, neural networks, and VAR models—and Bayesian optimization methods to improve the design and analysis of complex biological systems.",
+      "summary": "As a Postdoctoral Researcher at UCL, I focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. I create and adapt CI/CD pipelines to streamline our software development lifecycle for computational biology, while applying and advancing machine learning techniques\u2014including Gaussian processes, neural networks, and VAR models\u2014and Bayesian optimization methods to improve the design and analysis of complex biological systems.",
       "highlights": [
         "Developing robust Python packages for genetic design automation and modeling inference",
         "Creating and adapting CI/CD pipelines for scalable computational biology workflows",
@@ -58,11 +58,11 @@
       "location": "Salt Lake City, UT, USA",
       "startDate": "2019-08-16",
       "endDate": "2022-08-22",
-      "summary": "Conducted advanced research in Biomedical Engineering (Synthetic Biology Track) focused on developing computational models and GDA tools for genetic circuit design. Emphasized mathematical modeling and simulation to support experimental research.",
+      "summary": "Conducted independent advanced research in Biomedical Engineering focused on developing computational models and Genetic Design Automation (GDA) tools. Independently performed mathematical modeling and simulation to guide experimental validation.",
       "highlights": [
-        "Developed and refined computational models for genetic regulatory networks",
-        "Supported experimental design with simulation-based predictions",
-        "Collaborated on interdisciplinary projects in synthetic biology"
+        "Independently developed computational models for genetic regulatory networks",
+        "Guided experimental research through simulation-based predictions",
+        "Collaborated actively across interdisciplinary projects"
       ]
     },
     {
@@ -84,11 +84,11 @@
       "location": "Salt Lake City, UT, USA",
       "startDate": "2017-08-22",
       "endDate": "2019-08-15",
-      "summary": "Performed research in Bioengineering (Synthetic Biology Track) focusing on early-stage development of computational tools for genetic design. Collaborated with faculty and peers on mathematical modeling and simulation projects.",
+      "summary": "Performed supervised research focused on the early-stage development of computational tools for genetic circuit design, assisting in mathematical modeling and collaborative simulation projects.",
       "highlights": [
-        "Contributed to the development of preliminary GDA tools",
-        "Assisted in mathematical modeling of genetic circuits",
-        "Engaged in interdisciplinary research in synthetic biology"
+        "Contributed to preliminary genetic circuit modeling tools",
+        "Supported modeling and simulations of genetic regulatory systems",
+        "Collaborated with interdisciplinary teams on research initiatives"
       ]
     },
     {
@@ -162,17 +162,17 @@
     {
       "title": "Fulbright and Argentine Presidential Fellowship in Science & Technology",
       "date": "2017-01-01",
-      "awarder": "Argentine President’s Cabinet & U.S. Embassy of Buenos Aires",
-      "summary": "Awarded to pursue a master’s degree in the United States starting Fall 2017."
+      "awarder": "Argentine President\u2019s Cabinet & U.S. Embassy of Buenos Aires",
+      "summary": "Awarded to pursue a master\u2019s degree in the United States starting Fall 2017."
     },
     {
       "title": "Research and Communication Excellency Award",
       "date": "2015-01-01",
       "awarder": "Ministry of Science and Technology, Argentinean government",
-      "summary": "Recognized for excellence in research and communication under the 'Beca Estímulo' scholarship."
+      "summary": "Recognized for excellence in research and communication under the 'Beca Est\u00edmulo' scholarship."
     },
     {
-      "title": "Beca Estímulo (Encouragement Scholarship)",
+      "title": "Beca Est\u00edmulo (Encouragement Scholarship)",
       "date": "2011-01-01",
       "awarder": "University of Buenos Aires",
       "summary": "Supported research and development tasks in genetics and ecology."
@@ -183,14 +183,14 @@
       "name": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
       "publisher": "ACS Synthetic Biology",
       "releaseDate": "2024-01-01",
-      "url": "",
+      "url": "https://doi.org/xx.xxxx/acssynbio.xxxxxx",
       "summary": "An analysis of how model complexity impacts the robustness of synthetic genetic circuits."
     },
     {
       "name": "Synthetic Biology Open Language (SBOL) Version 3.1.0",
       "publisher": "Journal of Integrative Bioinformatics",
       "releaseDate": "2023-01-01",
-      "url": "",
+      "url": "https://doi.org/xx.xxxx/jib.xxxxxx",
       "summary": "Describes the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering."
     }
   ],
@@ -250,7 +250,6 @@
       "name": "Data Science & Machine Learning",
       "level": "Expert",
       "keywords": [
-        "Machine Learning",
         "Artificial Intelligence",
         "Data Analysis",
         "Neural Networks",
@@ -271,7 +270,8 @@
       "level": "Expert",
       "keywords": [
         "HTML",
-        "Hugo"
+        "Hugo",
+        "Jekyll"
       ]
     },
     {
@@ -322,10 +322,10 @@
       "name": "Data Science Bootcamp",
       "date": "2023-01-01",
       "url": "https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/pedro-fontanarrosa",
-      "issuer": "THE ERDŐS INSTITUTE"
+      "issuer": "THE ERD\u0150S INSTITUTE"
     },
     {
-      "name": "Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]",
+      "name": "Machine Learning A-Z\u2122: AI, Python & R + ChatGPT Bonus [2023]",
       "date": "2023-01-01",
       "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
       "issuer": "Udemy"
@@ -428,7 +428,7 @@
     },
     {
       "name": "iBioSim Development",
-      "description": "Worked on iBioSim—a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.",
+      "description": "Worked on iBioSim \u2014 a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.",
       "keywords": [
         "iBioSim",
         "SBML",
