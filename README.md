@@ -15,10 +15,10 @@ Updating Your Resume
 After making changes to your resume.json, re-render your resume as HTML with:
 
 ```bash
-npx resumed render resume.json --theme jsonresume-theme-class --output docs/index.html
+npx resumed render resume.json --theme jsonresume-theme-dev-ats --output docs/index.html
 ```
 
-Replace `jsonresume-theme-class` with your preferred theme if needed.
+Replace `jsonresume-theme-dev-ats` with your preferred theme if needed.
 
 ## Generating a PDF
 If you want to generate a PDF, use your existing PDF-generation setup (e.g., using Puppeteer):
