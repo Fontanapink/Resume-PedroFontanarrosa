@@ -5,11 +5,16 @@ on:
     workflows: ["Build and Commit CV"]
     types: [completed]
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Deploy to GitHub Pages
