@@ -23,6 +23,21 @@
         "network": "ORCID",
         "username": "0000-0002-0535-2684",
         "url": "https://orcid.org/0000-0002-0535-2684"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Pedro Fontanarrosa",
+        "url": "https://scholar.google.com/citations?hl=en&user=UemPJnYAAAAJ"
+      },
+      {
+        "network": "Researc Gate",
+        "username": "Pedro Fontanarrosa",
+        "url": "https://www.researchgate.net/profile/Pedro_Fontanarrosa3?ev=hdr_xprf"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Pedro Fontanarrosa",
+        "url": "https://www.linkedin.com/in/pedro-fontanarrosa-37372474/"
       }
     ]
   },
@@ -441,9 +456,7 @@
       ],
       "entity": "Research Projects",
       "type": "research project"
-    }
-  ],
-  "sideProjects": [
+    },
     {
       "name": "Detecting Fake News",
       "description": "A machine learning project that uses advanced algorithms to detect fake news. Developed in Python and hosted on GitHub.",
@@ -454,20 +467,10 @@
         "Fake News Detection",
         "Python"
       ]
-    },
-    {
-      "name": "Arduino & Electronics Projects",
-      "description": "Hobby projects involving Arduino and other electronic platforms to create interactive hardware solutions.",
-      "startDate": "2018-01-01",
-      "keywords": [
-        "Arduino",
-        "Electronics",
-        "DIY"
-      ]
     }
   ],
   "meta": {
-    "version": "v2.0.0",
+    "version": "v1.0.0",
     "lastModified": "2025-03-03T00:00:00"
   }
 }
