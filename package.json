@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Fontanapink/Resume-PedroFontanarrosa#readme",
   "dependencies": {
-    "jsonresume-theme-class": "^0.1.2",
+    "@jsonresume/jsonresume-theme-class": "^0.4.2",
     "jsonresume-theme-dev-ats": "^1.0.1",
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.23.0",
