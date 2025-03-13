@@ -7,7 +7,7 @@
     "email": "pfontanarrosa@gmail.com",
     "phone": "+44 756 459 4770",
     "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
-    "summary": "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. I have extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during my Master's and PhD research. As a postdoc at UCL, I am expanding into advanced machine learning algorithm development\u2014designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. I excel in remote, multidisciplinary collaborations.",
+    "summary": "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. Extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design acquired during Master's and PhD research. Currently expanding into advanced machine learning algorithm development at UCL—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. Excels in remote, multidisciplinary collaborations.",
     "location": {
       "city": "London",
       "region": "England",
@@ -47,11 +47,11 @@
       "position": "Postdoctoral Researcher",
       "location": "London, UK",
       "startDate": "2023-06-15",
-      "summary": "As a Postdoctoral Researcher at UCL, I focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. I create and adapt CI/CD pipelines to streamline our software development lifecycle for computational biology, while applying and advancing machine learning techniques\u2014including Gaussian processes, neural networks, and VAR models\u2014and Bayesian optimization methods to improve the design and analysis of complex biological systems.",
+      "summary": "Focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. Responsible for creating and adapting CI/CD pipelines to streamline the software development lifecycle for computational biology, while applying and advancing machine learning techniques—including Gaussian processes, neural networks, and VAR models—and Bayesian optimization methods to improve the design and analysis of complex biological systems.",
       "highlights": [
-        "Developing robust Python packages for genetic design automation and modeling inference",
-        "Creating and adapting CI/CD pipelines for scalable computational biology workflows",
-        "Applying and advancing machine learning (GP, VAR, NN) and Bayesian optimization algorithms to enhance predictive modeling and system design"
+        "Developed robust Python packages for genetic design automation and modeling inference",
+        "Created and adapted CI/CD pipelines for scalable computational biology workflows",
+        "Applied and advanced machine learning (GP, VAR, NN) and Bayesian optimization algorithms to enhance predictive modeling and system design"
       ]
     },
     {
@@ -73,11 +73,11 @@
       "location": "Salt Lake City, UT, USA",
       "startDate": "2019-08-16",
       "endDate": "2022-08-22",
-      "summary": "Conducted independent advanced research in Biomedical Engineering focused on developing computational models and Genetic Design Automation (GDA) tools. Independently performed mathematical modeling and simulation to guide experimental validation.",
+      "summary": "Conducted independent advanced research in Biomedical Engineering focused on developing computational models and Genetic Design Automation (GDA) tools. Performed mathematical modeling and simulation to guide experimental validation.",
       "highlights": [
         "Simulated genetic regulatory networks using stochastic modeling, forecasting gene expression levels with 95% accuracy and guiding subsequent experimental validation by other team members.",
         "Guided experimental research through simulation-based predictions",
-        "Collaborated actively across interdisciplinary projects"
+        "Collaborated on interdisciplinary synthetic biology projects"
       ]
     },
     {
@@ -99,11 +99,11 @@
       "location": "Salt Lake City, UT, USA",
       "startDate": "2017-08-22",
       "endDate": "2019-08-15",
-      "summary": "Performed supervised research focused on the early-stage development of computational tools for genetic circuit design, assisting in mathematical modeling and collaborative simulation projects.",
+      "summary": "Performed supervised research focused on early-stage development of computational tools for genetic circuit design. Assisted in mathematical modeling and collaborative simulation projects.",
       "highlights": [
         "Contributed to preliminary genetic circuit modeling tools",
-        "Supported modeling and simulations of genetic regulatory systems",
-        "Collaborated with interdisciplinary teams on research initiatives"
+        "Supported modeling and simulation of genetic regulatory systems",
+        "Collaborated on interdisciplinary research initiatives"
       ]
     },
     {
@@ -114,7 +114,7 @@
       "endDate": "2017-01-01",
       "summary": "Taught chemistry to high school students and coordinated Extended Essays in chemical research.",
       "highlights": [
-        "Developed lesson plans that enhanced student engagement in scientific topics",
+        "Developed lesson plans that enhanced student engagement",
         "Mentored students in chemical research projects"
       ]
     },
@@ -157,7 +157,7 @@
     {
       "institution": "University of Utah",
       "area": "Bioengineering (Synthetic Biology Track)",
-      "studyType": "Master\u2019s",
+      "studyType": "Master's",
       "startDate": "2017-08-22",
       "endDate": "2019-08-15",
       "score": "3.67/4.0",
@@ -177,17 +177,17 @@
     {
       "title": "Fulbright and Argentine Presidential Fellowship in Science & Technology",
       "date": "2017-01-01",
-      "awarder": "Argentine President\u2019s Cabinet & U.S. Embassy of Buenos Aires",
-      "summary": "Awarded to pursue a master\u2019s degree in the United States starting Fall 2017."
+      "awarder": "Argentine President’s Cabinet & U.S. Embassy of Buenos Aires",
+      "summary": "Awarded to pursue a master’s degree in the United States starting Fall 2017."
     },
     {
       "title": "Research and Communication Excellency Award",
       "date": "2015-01-01",
       "awarder": "Ministry of Science and Technology, Argentinean government",
-      "summary": "Recognized for excellence in research and communication under the 'Beca Est\u00edmulo' scholarship."
+      "summary": "Recognized for excellence in research and communication under the 'Beca Estímulo' scholarship."
     },
     {
-      "title": "Beca Est\u00edmulo (Encouragement Scholarship)",
+      "title": "Beca Estímulo (Encouragement Scholarship)",
       "date": "2011-01-01",
       "awarder": "University of Buenos Aires",
       "summary": "Supported research and development tasks in genetics and ecology."
@@ -341,10 +341,10 @@
       "name": "Data Science Bootcamp",
       "date": "2023-01-01",
       "url": "https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/pedro-fontanarrosa",
-      "issuer": "THE ERD\u0150S INSTITUTE"
+      "issuer": "THE ERDŐS INSTITUTE"
     },
     {
-      "name": "Machine Learning A-Z\u2122: AI, Python & R + ChatGPT Bonus [2023]",
+      "name": "Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]",
       "date": "2023-01-01",
       "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
       "issuer": "Udemy"
@@ -392,7 +392,7 @@
       "url": "https://data-centric-biodesign-tig.github.io/",
       "startDate": "2024-10-01",
       "endDate": "2025-05-01",
-      "summary": "Organize a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. The group unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
+      "summary": "Organizes a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. Unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
     },
     {
       "organization": "Biohacking BA",
@@ -433,7 +433,7 @@
     },
     {
       "name": "iBioSim Development",
-      "description": "Worked on iBioSim\u2014a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.",
+      "description": "Worked on iBioSim—a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.",
       "keywords": [
         "iBioSim",
         "SBML",
