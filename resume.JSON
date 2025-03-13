@@ -75,7 +75,7 @@
       "endDate": "2022-08-22",
       "summary": "Conducted independent advanced research in Biomedical Engineering focused on developing computational models and Genetic Design Automation (GDA) tools. Independently performed mathematical modeling and simulation to guide experimental validation.",
       "highlights": [
-        "Independently developed computational models for genetic regulatory networks",
+        "Simulated genetic regulatory networks using stochastic modeling, forecasting gene expression levels with 95% accuracy and guiding subsequent experimental validation by other team members.",
         "Guided experimental research through simulation-based predictions",
         "Collaborated actively across interdisciplinary projects"
       ]
@@ -273,13 +273,6 @@
       ]
     },
     {
-      "name": "Writing",
-      "level": "Expert",
-      "keywords": [
-        "LaTeX"
-      ]
-    },
-    {
       "name": "Web Development",
       "level": "Expert",
       "keywords": [
@@ -293,6 +286,18 @@
       "level": "Intermediate",
       "keywords": [
         "SQL"
+      ]
+    },
+    {
+      "name": "High Performance Computing",
+      "level": "Expert",
+      "keywords": [
+        "HPC",
+        "Parallel Computing",
+        "Cluster Computing",
+        "MPI",
+        "Job Scheduling",
+        "Distributed Computing"
       ]
     }
   ],
