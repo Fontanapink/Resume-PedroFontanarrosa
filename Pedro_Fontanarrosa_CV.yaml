@@ -1,0 +1,348 @@
+cv:
+  name: "Pedro Fontanarrosa"
+  label: "Multidisciplinary Researcher & Software Engineer in Synthetic Biology"
+  location: "London, England, GB"
+  email: "pfontanarrosa@gmail.com"
+  phone: "+44 (756) 459 4770"
+  website: "https://fontanapink.github.io/Resume-PedroFontanarrosa/"
+  social_networks:
+    - network: "GitHub"
+      username: "Fontanapink"
+    - network: "ORCID"
+      username: "0000-0002-0535-2684"
+    - network: "Google Scholar"
+      username: "Pedro Fontanarrosa"
+    - network: "ResearchGate"
+      username: "Pedro Fontanarrosa"
+    - network: "LinkedIn"
+      username: "Pedro Fontanarrosa"
+  sections:
+    profile:
+      - "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences."
+      - "Extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design during Master's and PhD research."
+      - "Currently expanding into advanced machine learning algorithm development at UCL—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression, and developing physics-informed neural networks."
+      - "Excels in remote, multidisciplinary collaborations."
+    education:
+      - institution: "University of Utah"
+        area: "Biomedical Engineering (Synthetic Biology Track)"
+        degree: "Ph.D."
+        start_date: "2019-08"
+        end_date: "2022-08"
+        location: "Salt Lake City, UT, USA"
+        highlights:
+          - "GPA: 3.8/4.0"
+          - "Courses: []"
+      - institution: "University of Utah"
+        area: "Bioengineering (Synthetic Biology Track)"
+        degree: "Master"
+        start_date: "2017-08"
+        end_date: "2019-08"
+        location: "Salt Lake City, UT, USA"
+        highlights:
+          - "GPA: 3.67/4.0"
+          - "Courses: []"
+      - institution: "University of Buenos Aires"
+        area: "Biological Sciences (Genetics, Evolution and Ecology)"
+        degree: "Licentiate"
+        start_date: "2007-01"
+        end_date: "2014-01"
+        location: "Buenos Aires, Argentina"
+        highlights:
+          - "GPA: 8.39/10.00"
+          - "Courses: []"
+    experience:
+      - company: "Computational Systems and Synthetic Biology Lab, University College London"
+        position: "Postdoctoral Researcher"
+        start_date: "2023-06"
+        end_date: "present"
+        location: "London, UK"
+        summary: "Focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. Responsible for creating and adapting CI/CD pipelines to streamline the software development lifecycle for computational biology, while applying and advancing machine learning techniques—including Gaussian processes, neural networks, and VAR models—and Bayesian optimization methods to improve the design and analysis of complex biological systems."
+        highlights:
+          - "Developed robust Python packages for genetic design automation and modeling inference"
+          - "Created and adapted CI/CD pipelines for scalable computational biology workflows"
+          - "Applied and advanced machine learning (GP, VAR, NN) and Bayesian optimization algorithms to enhance predictive modeling and system design"
+      - company: "Genetic Logic Lab, University of Boulder"
+        position: "Postdoctoral Researcher"
+        start_date: "2022-08"
+        end_date: "2023-06"
+        location: "Boulder, CO, USA"
+        summary: "Developed Genetic Design Automation (GDA) tools and mathematical models for synthetic biology. Focused on computational methods for genetic circuit simulation and design in a collaborative, interdisciplinary setting."
+        highlights:
+          - "Enhanced iBioSim functionalities for genetic circuit modeling"
+          - "Developed robust mathematical models for genetic design"
+          - "Collaborated with international research teams using cloud-based tools"
+      - company: "University of Utah"
+        position: "Research Assistant (PhD Researcher)"
+        start_date: "2019-08"
+        end_date: "2022-08"
+        location: "Salt Lake City, UT, USA"
+        summary: "Conducted independent advanced research in Biomedical Engineering focused on developing computational models and Genetic Design Automation (GDA) tools. Performed mathematical modeling and simulation to guide experimental validation."
+        highlights:
+          - "Simulated genetic regulatory networks using stochastic modeling, forecasting gene expression levels with 95% accuracy and guiding subsequent experimental validation by other team members."
+          - "Guided experimental research through simulation-based predictions"
+          - "Collaborated on interdisciplinary synthetic biology projects"
+      - company: "COMBINE Standards"
+        position: "SBOL Editor"
+        start_date: "2019-01"
+        end_date: "2022-01"
+        location: "Online"
+        summary: "Curated and maintained the Synthetic Biology Open Language (SBOL) standard for representing biological designs. Coordinated change proposals and supported the development of software libraries and community documentation."
+        highlights:
+          - "Led weekly meetings to coordinate SBOL standard updates"
+          - "Facilitated community-driven revisions and improvements to SBOL"
+          - "Enhanced interoperability in synthetic biology data exchange"
+      - company: "University of Utah"
+        position: "Research Assistant (Master's Researcher)"
+        start_date: "2017-08"
+        end_date: "2019-08"
+        location: "Salt Lake City, UT, USA"
+        summary: "Performed supervised research focused on early-stage development of computational tools for genetic circuit design. Assisted in mathematical modeling and collaborative simulation projects."
+        highlights:
+          - "Contributed to preliminary genetic circuit modeling tools"
+          - "Supported modeling and simulation of genetic regulatory systems"
+          - "Collaborated on interdisciplinary research initiatives"
+      - company: "Northlands School"
+        position: "Highschool Chemistry Teacher"
+        start_date: "2015-01"
+        end_date: "2017-01"
+        location: "Buenos Aires, Argentina"
+        summary: "Taught chemistry to high school students and coordinated Extended Essays in chemical research."
+        highlights:
+          - "Developed lesson plans that enhanced student engagement"
+          - "Mentored students in chemical research projects"
+      - company: "Tarbut School"
+        position: "Science and Mathematics Teacher"
+        start_date: "2014-01"
+        end_date: "2015-01"
+        location: "Buenos Aires, Argentina"
+        summary: "Taught science and mathematics to primary and high school students and organized Mathematical Ingenious Olympiads."
+        highlights:
+          - "Designed and implemented creative educational programs"
+          - "Coordinated school-wide science and math competitions"
+      - company: "Evolutionary Studies Laboratory, University of Buenos Aires"
+        position: "Research Assistant"
+        start_date: "2010-01"
+        end_date: "2014-01"
+        location: "Buenos Aires, Argentina"
+        summary: "Conducted research in genetics and ecology, including maintaining Drosophila isogenetic lines, coordinating field expeditions, managing statistical programs and databases, and mentoring lab members."
+        highlights:
+          - "Coordinated field expeditions and permit negotiations"
+          - "Managed statistical programs and databases"
+          - "Trained new laboratory members"
+    projects:
+      - name: "Synergistic Discovery and Design (SD2)"
+        start_date: "2018-01"
+        end_date: "2022-06"
+        summary: "Genetic circuit design for extreme environments enabled by models extracted from petabyte+ perturbation analyses."
+        keywords:
+          - "Synthetic Biology"
+          - "Genetic Circuits"
+          - "DARPA"
+        roles:
+          - "Researcher"
+        entity: "DARPA"
+        type: "research project"
+      - name: "iBioSim Development"
+        summary: "Worked on iBioSim—a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models."
+        keywords:
+          - "iBioSim"
+          - "SBML"
+          - "SBOL"
+          - "Genetic Circuits"
+        roles:
+          - "Developer"
+        entity: "Genetic Logic Lab"
+        type: "research project"
+      - name: "Advanced Machine Learning for Biological Systems"
+        summary: "Developing and applying novel machine learning algorithms to model and predict the structure and dynamics of biological systems. Techniques include custom Gaussian process regression with covariance (kernel) designs, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks for scalable inference with limited samples. Originally applied to microbial systems, these methods are generalizable to any biological system."
+        keywords:
+          - "Machine Learning"
+          - "Gaussian Process Regression"
+          - "Bayesian Inference"
+          - "VAR Regression"
+          - "Physics-Informed Neural Networks"
+        roles:
+          - "Algorithm Developer"
+        entity: "Research Projects"
+        type: "research project"
+      - name: "Detecting Fake News"
+        summary: "A machine learning project that uses advanced algorithms to detect fake news. Developed in Python and hosted on GitHub."
+        url: "https://github.com/Fontanapink/Detecting-Fake-News-A-Machine-Learning-Approach"
+        start_date: "2022-01"
+        keywords:
+          - "Machine Learning"
+          - "Fake News Detection"
+          - "Python"
+    skills:
+      - label: "Software Engineering"
+        details: "Expert; Keywords: Python, Java, C++, JavaScript, R, Git, GitHub, GitLab, CI/CD, Docker, Kubernetes, Google Cloud, TensorFlow, PyTorch, scikit-learn"
+      - label: "Optimization & Operations Research"
+        details: "Expert; Keywords: CPLEX, Gurobi, Pyomo, Linear Programming, Nonlinear Programming, Integer Programming"
+      - label: "Web Scraping"
+        details: "Intermediate; Keywords: Scrapy, Splash, Selenium"
+      - label: "Probabilistic Modeling"
+        details: "Advanced; Keywords: Gaussian Process Regression, Bayesian Machine Learning"
+      - label: "Data Science & Machine Learning"
+        details: "Expert; Keywords: Artificial Intelligence, Data Analysis, Neural Networks, Physics-Informed Neural Networks, Bayesian Inference, VAR Regression"
+      - label: "Web Development"
+        details: "Expert; Keywords: HTML, Hugo, Jekyll"
+      - label: "Databases"
+        details: "Intermediate; Keywords: SQL"
+      - label: "High Performance Computing"
+        details: "Expert; Keywords: HPC, Parallel Computing, Cluster Computing, MPI, Job Scheduling, Distributed Computing"
+    publications:
+      - title: "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits"
+        authors:
+          - "Pedro Fontanarrosa"
+        journal: "ACS Synthetic Biology"
+        date: "2024-01"
+        url: "https://doi.org/xx.xxxx/acssynbio.xxxxxx"
+        summary: "An analysis of how model complexity impacts the robustness of synthetic genetic circuits."
+      - title: "Synthetic Biology Open Language (SBOL) Version 3.1.0"
+        authors:
+          - "Pedro Fontanarrosa"
+        journal: "Journal of Integrative Bioinformatics"
+        date: "2023-01"
+        url: "https://doi.org/xx.xxxx/jib.xxxxxx"
+        summary: "Describes the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering."
+    awards:
+      - bullet: "Fulbright and Argentine Presidential Fellowship in Science & Technology, Date: 2017, Awarder: Argentine President’s Cabinet & U.S. Embassy of Buenos Aires, Summary: Awarded to pursue a master’s degree in the United States starting Fall 2017."
+      - bullet: "Research and Communication Excellency Award, Date: 2015, Awarder: Ministry of Science and Technology, Argentinean government, Summary: Recognized for excellence in research and communication under the 'Beca Estímulo' scholarship."
+      - bullet: "Beca Estímulo (Encouragement Scholarship), Date: 2011, Awarder: University of Buenos Aires, Summary: Supported research and development tasks in genetics and ecology."
+    certificates:
+      - bullet: "Data Science Bootcamp – THE ERDŐS INSTITUTE (2023); URL: https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/pedro-fontanarrosa"
+      - bullet: "Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023] – Udemy (2023); URL: https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/"
+      - bullet: "Optimization with Python: Solve Operations Research Problems – Udemy; URL: https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/?couponCode=ST10MT30325G2"
+      - bullet: "Optimization with Python: Complete Pyomo Bootcamp A-Z – Udemy; URL: https://www.udemy.com/course/optimization-with-python-complete-pyomo-bootcamp-a-z/?couponCode=ST10MT30325G2"
+      - bullet: "AI and Meta-Heuristics (Combinatorial Optimization) Python – Udemy; URL: https://www.udemy.com/course/ai-and-combinatorial-optimization-with-meta-heuristics/?couponCode=ST10MT30325G2"
+      - bullet: "Modern Web Scraping with Python using Scrapy Splash Selenium – Udemy; URL: https://www.udemy.com/course/web-scraping-in-python-using-scrapy-and-splash/?couponCode=ST10MT30325G2"
+      - bullet: "Deployment of Machine Learning Models – Udemy; URL: https://www.udemy.com/course/deployment-of-machine-learning-models/?couponCode=ST10MT30325G2"
+      - bullet: "Pyomo Bootcamp: Python Optimization from Beginner to Advance – Udemy; URL: https://www.udemy.com/course/optimization-in-python/?couponCode=ST10MT30325G2"
+      - bullet: "Theory of Gaussian Process Regression for Machine Learning – Udemy; URL: https://www.udemy.com/course/gaussian-process-regression-fundamentals-and-application/?couponCode=ST10MT30325G2"
+    languages:
+      - label: "Spanish"
+        details: "Native"
+      - label: "English"
+        details: "Proficient"
+      - label: "Portuguese"
+        details: "Intermediate"
+      - label: "French"
+        details: "Beginner"
+    volunteer:
+      - bullet: "Data-Centric Biological Design & Engineering Interest Group – Organizer, URL: https://data-centric-biodesign-tig.github.io/, Start: 2024-10, End: 2025-05, Summary: Organized a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. Unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
+      - bullet: "Biohacking BA – Volunteer Organizer, URL: https://www.meetup.com/es/biohackingBA/, Start: 2013-01, End: 2017-01, Summary: Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology. Highlights: Organized hackathons for SBOL and FAIR data practices; Coordinated interdisciplinary teams and managed remote collaboration."
+      - bullet: "University of Buenos Aires Biology Week – Event Organizer, Start: 2010-01, End: 2012-01, Summary: Coordinated the annual Biology Week to promote science careers among high school students."
+    interests:
+      - name: "Synthetic Biology"
+        keywords:
+          - "Genetic Circuit Design"
+          - "Biomedical Engineering"
+          - "Data Science"
+      - name: "Electronics & DIY"
+        keywords:
+          - "Arduino"
+          - "Electronic Projects"
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: "rgb(0, 0, 0)"
+    name: "rgb(0, 79, 144)"
+    connections: "rgb(0, 79, 144)"
+    section_titles: "rgb(0, 79, 144)"
+    links: "rgb(0, 79, 144)"
+    last_updated_date_and_page_numbering: "rgb(128, 128, 128)"
+  text:
+    font_family: "Source Sans 3"
+    font_size: 10pt
+    leading: "0.6em"
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: "Source Sans 3"
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: "Source Sans 3"
+    separator_between_connections: ""
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: "Source Sans 3"
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: "•"
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: "Pedro Fontanarrosa - Page PAGE_NUMBER of TOTAL_PAGES"
+  last_updated_date_template: "Last updated in TODAY"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: "–"
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-03-31'
+  bold_keywords: []
