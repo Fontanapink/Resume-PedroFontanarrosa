@@ -7,7 +7,7 @@
         "email": "pfontanarrosa@gmail.com",
         "phone": "+44 (756) 459 4770",
         "url": "https://fontanapink.github.io",
-        "summary": "Postdoctoral researcher with extensive experience in synthetic biology, genetic circuit design, and biomedical engineering. Developed automation tools that processed over 10,000 experimental data points, published 28 peer-reviewed articles, and achieved 95% prediction accuracy in dynamic modeling of genetic regulatory networks.",
+        "summary": "Postdoctoral researcher with extensive experience in synthetic biology, genetic circuit design, and biomedical engineering. Developed automation tools that processed over 10,000 experimental data points and achieved 95% prediction accuracy in dynamic modeling of genetic regulatory networks. Authored 32 publications, including 8 in high-impact journals such as ACS Synthetic Biology and Journal of Integrative Bioinformatics, which advanced the SBOL standard and improved genetic circuit reproducibility.",
         "location": {
             "city": "London",
             "region": "England",
@@ -32,10 +32,10 @@
             "position": "Research Assistantship",
             "location": "London, UK",
             "startDate": "2023-01-01",
-            "summary": "Developed genetic design automation software, modeled and simulated genetic regulatory networks, and designed genetic circuits for specific applications under supervision of Prof. Chris Barnes. Achieved development of a GDA tool that processed over 10,000 experimental data points.",
+            "summary": "Developed genetic design automation software, modeled and simulated genetic regulatory networks, and designed genetic circuits for specific applications under supervision of Prof. Chris Barnes. Developed a GDA tool that processed over 10,000 experimental data points.",
             "highlights": [
                 "Developed GDA tool for iBioSim",
-                "Developed novel modeling automation techniques",
+                "Implemented novel modeling automation techniques",
                 "Maintained genetic parts repositories"
             ]
         },
@@ -45,7 +45,7 @@
             "location": "Boulder, CO, USA",
             "startDate": "2017-01-01",
             "endDate": "2023-01-01",
-            "summary": "Conducted research in genetic design automation, modeled and simulated genetic regulatory networks, and developed genetic circuits under supervision of Prof. Chris Myers. Contributed to publication of peer-reviewed articles and advancement of modeling techniques.",
+            "summary": "Conducted research in genetic design automation, modeled and simulated genetic regulatory networks, and developed genetic circuits under supervision of Prof. Chris Myers. Contributed to publication of peer-reviewed works that advanced circuit reproducibility.",
             "highlights": [
                 "Developed GDA tool using iBioSim",
                 "Innovated modeling automation techniques",
@@ -153,14 +153,14 @@
             "publisher": "ACS Synthetic Biology",
             "releaseDate": "2024-01-01",
             "url": "",
-            "summary": "An analysis of how model complexity impacted the robustness of synthetic genetic circuits."
+            "summary": "Analyzed model complexity and improved predictive robustness of synthetic genetic circuits."
         },
         {
             "name": "Synthetic Biology Open Language (SBOL) Version 3.1.0",
             "publisher": "Journal of Integrative Bioinformatics",
             "releaseDate": "2023-01-01",
             "url": "",
-            "summary": "Described the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering."
+            "summary": "Described new features and improvements in SBOL standard for data exchange in synthetic biology."
         }
     ],
     "skills": [
