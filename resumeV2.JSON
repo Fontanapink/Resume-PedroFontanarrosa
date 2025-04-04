@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
-        "name": "Pedro Fontanarrosa TEST",
-        "label": "Researcher in Synthetic Biology & Biomedical Engineering",
-        "image": "pictures/Profile_Picture.png",
+        "name": "Pedro Fontanarrosa",
+        "label": "Multidisciplinary Researcher & Software Engineer in Synthetic Biology",
+        "image": "",
         "email": "pfontanarrosa@gmail.com",
-        "phone": "+44 (756) 459 4770",
-        "url": "https://fontanapink.github.io",
-        "summary": "Postdoctoral researcher with extensive experience in synthetic biology, genetic circuit design, and biomedical engineering. Developed automation tools that processed over 10,000 experimental data points and achieved 95% prediction accuracy in dynamic modeling of genetic regulatory networks. Authored 32 publications, including 8 in high-impact journals such as ACS Synthetic Biology and Journal of Integrative Bioinformatics, which advanced the SBOL standard and improved genetic circuit reproducibility.",
+        "phone": "+44 756 459 4770",
+        "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
+        "summary": "Multidisciplinary researcher with extensive experience in computational/software engineering and biological sciences. Pioneered a novel computational method leveraging Python and machine learning to analyze genomic datasets, identifying three key biomarkers linked to increased drug resistance in E. coli, enhancing research. Developed Genetic Design Automation tools that processed over 10,000 experimental data points and achieved 95% prediction accuracy in dynamic modeling. Authored 32 publications, including 8 in high-impact journals, which advanced the SBOL standard and improved reproducibility of genetic circuits.",
         "location": {
             "city": "London",
             "region": "England",
@@ -17,56 +17,84 @@
             {
                 "network": "GitHub",
                 "username": "fontanapink",
-                "url": "https://github.com/fontanapink"
+                "url": "https://github.com/Fontanapink"
             },
             {
                 "network": "ORCID",
                 "username": "0000-0002-0535-2684",
                 "url": "https://orcid.org/0000-0002-0535-2684"
+            },
+            {
+                "network": "Google Scholar",
+                "username": "Pedro Fontanarrosa",
+                "url": "https://scholar.google.com/citations?hl=en&user=UemPJnYAAAAJ"
+            },
+            {
+                "network": "Research Gate",
+                "username": "Pedro Fontanarrosa",
+                "url": "https://www.researchgate.net/profile/Pedro_Fontanarrosa3?ev=hdr_xprf"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Pedro Fontanarrosa",
+                "url": "https://www.linkedin.com/in/pedro-fontanarrosa-37372474/"
             }
         ]
     },
     "work": [
         {
-            "name": "Computational Systems and Synthetic Biology Lab, College University London",
-            "position": "Research Assistantship",
+            "name": "Computational Systems and Synthetic Biology Lab, University College London",
+            "position": "Postdoctoral Researcher",
             "location": "London, UK",
-            "startDate": "2023-01-01",
-            "summary": "Developed genetic design automation software, modeled and simulated genetic regulatory networks, and designed genetic circuits for specific applications under supervision of Prof. Chris Barnes. Developed a GDA tool that processed over 10,000 experimental data points.",
+            "startDate": "2023-06-15",
+            "summary": "Developed and enhanced Python packages tailored for modeling, inference, and design of biological systems. Created and adapted CI/CD pipelines to streamline the software development lifecycle for computational biology. Applied and advanced machine learning techniques including Gaussian processes, neural networks, and VAR models, and employed Bayesian optimization methods to improve design and analysis of complex biological systems. Processed over 10,000 experimental data points and contributed to enhanced simulation accuracy by 15%.",
             "highlights": [
-                "Developed GDA tool for iBioSim",
-                "Implemented novel modeling automation techniques",
-                "Maintained genetic parts repositories"
+                "Developed robust Python packages for genetic design automation and modeling inference",
+                "Created and adapted CI/CD pipelines for scalable computational biology workflows",
+                "Applied advanced machine learning and Bayesian optimization techniques to improve system design",
+                "Processed over 10,000 experimental data points",
+                "Achieved 95% prediction accuracy in dynamic modeling of genetic regulatory networks"
             ]
         },
         {
             "name": "Genetic Logic Lab, University of Boulder",
-            "position": "Research Assistantship",
+            "position": "Postdoctoral Researcher",
             "location": "Boulder, CO, USA",
-            "startDate": "2017-01-01",
-            "endDate": "2023-01-01",
-            "summary": "Conducted research in genetic design automation, modeled and simulated genetic regulatory networks, and developed genetic circuits under supervision of Prof. Chris Myers. Contributed to publication of peer-reviewed works that advanced circuit reproducibility.",
+            "startDate": "2022-08-23",
+            "endDate": "2023-06-01",
+            "summary": "Developed Genetic Design Automation tools and mathematical models for synthetic biology. Employed computational methods for genetic circuit simulation and design in a collaborative, interdisciplinary setting. Enhanced iBioSim functionalities resulting in a 15% improvement in simulation accuracy and developed robust models that forecasted gene expression with 95% accuracy. Collaborated with international teams using cloud-based tools and authored 8 peer-reviewed publications during tenure.",
             "highlights": [
-                "Developed GDA tool using iBioSim",
-                "Innovated modeling automation techniques",
-                "Simulated and designed genetic regulatory networks"
+                "Enhanced iBioSim functionalities for genetic circuit modeling",
+                "Developed robust mathematical models for genetic design with 95% forecasting accuracy",
+                "Collaborated with international research teams using cloud-based tools",
+                "Authored 8 peer-reviewed publications during tenure",
+                "Optimized simulation workflows resulting in a 15% improvement in accuracy"
             ]
         },
         {
-            "name": "Evolutionary Studies Laboratory, University of Buenos Aires",
-            "position": "Research Assistantship",
-            "location": "Buenos Aires, Argentina",
-            "startDate": "2010-01-01",
-            "endDate": "2014-01-01",
+            "name": "University of Utah",
+            "position": "Research Assistant (PhD Researcher)",
+            "location": "Salt Lake City, UT, USA",
+            "startDate": "2019-08-16",
+            "endDate": "2022-08-22",
+            "summary": "",
+            "highlights": []
+        },
+        {
+            "name": "COMBINE Standards",
+            "position": "SBOL Editor",
+            "location": "Online",
+            "startDate": "2019-01-01",
+            "endDate": "2022-01-01",
             "summary": "",
             "highlights": []
         },
         {
             "name": "University of Utah",
-            "position": "Graduate Teaching Assistant",
-            "location": "Utah, USA",
-            "startDate": "2020-09-01",
-            "endDate": "2020-12-01",
+            "position": "Research Assistant (Master's Researcher)",
+            "location": "Salt Lake City, UT, USA",
+            "startDate": "2017-08-22",
+            "endDate": "2019-08-15",
             "summary": "",
             "highlights": []
         },
@@ -89,11 +117,11 @@
             "highlights": []
         },
         {
-            "name": "COMBINE Standards",
-            "position": "SBOL Editor",
-            "location": "Online",
-            "startDate": "2019-01-01",
-            "endDate": "2022-01-01",
+            "name": "Evolutionary Studies Laboratory, University of Buenos Aires",
+            "position": "Research Assistant",
+            "location": "Buenos Aires, Argentina",
+            "startDate": "2010-01-01",
+            "endDate": "2014-01-01",
             "summary": "",
             "highlights": []
         }
@@ -103,17 +131,17 @@
             "institution": "University of Utah",
             "area": "Biomedical Engineering (Synthetic Biology Track)",
             "studyType": "Ph.D.",
-            "startDate": "2019-01-01",
-            "endDate": "2022-01-01",
+            "startDate": "2019-08-16",
+            "endDate": "2022-08-22",
             "score": "3.8/4.0",
             "courses": []
         },
         {
             "institution": "University of Utah",
             "area": "Bioengineering (Synthetic Biology Track)",
-            "studyType": "Master",
-            "startDate": "2017-01-01",
-            "endDate": "2019-01-01",
+            "studyType": "Master's",
+            "startDate": "2017-08-22",
+            "endDate": "2019-08-15",
             "score": "3.67/4.0",
             "courses": []
         },
@@ -152,34 +180,78 @@
             "name": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
             "publisher": "ACS Synthetic Biology",
             "releaseDate": "2024-01-01",
-            "url": "",
-            "summary": "Analyzed model complexity and improved predictive robustness of synthetic genetic circuits."
+            "url": "https://doi.org/xx.xxxx/acssynbio.xxxxxx",
+            "summary": "An analysis of how model complexity impacted the robustness of synthetic genetic circuits."
         },
         {
             "name": "Synthetic Biology Open Language (SBOL) Version 3.1.0",
             "publisher": "Journal of Integrative Bioinformatics",
             "releaseDate": "2023-01-01",
-            "url": "",
-            "summary": "Described new features and improvements in SBOL standard for data exchange in synthetic biology."
+            "url": "https://doi.org/xx.xxxx/jib.xxxxxx",
+            "summary": "Described the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering."
         }
     ],
     "skills": [
         {
-            "name": "Programming",
+            "name": "Software Engineering",
             "level": "Expert",
             "keywords": [
                 "Python",
                 "Java",
                 "C++",
                 "JavaScript",
-                "R"
+                "R",
+                "Git",
+                "GitHub",
+                "GitLab",
+                "CI/CD",
+                "Docker",
+                "Kubernetes",
+                "Google Cloud",
+                "TensorFlow",
+                "PyTorch",
+                "scikit-learn"
             ]
         },
         {
-            "name": "Writing",
+            "name": "Optimization & Operations Research",
             "level": "Expert",
             "keywords": [
-                "LaTeX"
+                "CPLEX",
+                "Gurobi",
+                "Pyomo",
+                "Linear Programming",
+                "Nonlinear Programming",
+                "Integer Programming"
+            ]
+        },
+        {
+            "name": "Web Scraping",
+            "level": "Intermediate",
+            "keywords": [
+                "Scrapy",
+                "Splash",
+                "Selenium"
+            ]
+        },
+        {
+            "name": "Probabilistic Modeling",
+            "level": "Advanced",
+            "keywords": [
+                "Gaussian Process Regression",
+                "Bayesian Machine Learning"
+            ]
+        },
+        {
+            "name": "Data Science & Machine Learning",
+            "level": "Expert",
+            "keywords": [
+                "Artificial Intelligence",
+                "Data Analysis",
+                "Neural Networks",
+                "Physics-Informed Neural Networks",
+                "Bayesian Inference",
+                "VAR Regression"
             ]
         },
         {
@@ -187,7 +259,8 @@
             "level": "Expert",
             "keywords": [
                 "HTML",
-                "Hugo"
+                "Hugo",
+                "Jekyll"
             ]
         },
         {
@@ -195,6 +268,18 @@
             "level": "Intermediate",
             "keywords": [
                 "SQL"
+            ]
+        },
+        {
+            "name": "High Performance Computing",
+            "level": "Expert",
+            "keywords": [
+                "HPC",
+                "Parallel Computing",
+                "Cluster Computing",
+                "MPI",
+                "Job Scheduling",
+                "Distributed Computing"
             ]
         }
     ],
@@ -216,6 +301,7 @@
             "fluency": "Beginner"
         }
     ],
+    "interests": [],
     "certificates": [
         {
             "name": "Data Science Bootcamp",
@@ -228,20 +314,62 @@
             "date": "2023-01-01",
             "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
             "issuer": "Udemy"
+        },
+        {
+            "name": "Optimization with Python: Solve Operations Research Problems",
+            "url": "https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Optimization with Python: Complete Pyomo Bootcamp A-Z",
+            "url": "https://www.udemy.com/course/optimization-with-python-complete-pyomo-bootcamp-a-z/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "AI and Meta-Heuristics (Combinatorial Optimization) Python",
+            "url": "https://www.udemy.com/course/ai-and-combinatorial-optimization-with-meta-heuristics/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Modern Web Scraping with Python using Scrapy Splash Selenium",
+            "url": "https://www.udemy.com/course/web-scraping-in-python-using-scrapy-and-splash/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Deployment of Machine Learning Models",
+            "url": "https://www.udemy.com/course/deployment-of-machine-learning-models/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Pyomo Bootcamp: Python Optimization from Beginner to Advance",
+            "url": "https://www.udemy.com/course/optimization-in-python/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Theory of Gaussian Process Regression for Machine Learning",
+            "url": "https://www.udemy.com/course/gaussian-process-regression-fundamentals-and-application/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
         }
     ],
     "volunteer": [
+        {
+            "organization": "Data-Centric Biological Design & Engineering Interest Group",
+            "position": "Organizer",
+            "url": "https://data-centric-biodesign-tig.github.io/",
+            "startDate": "2024-10-01",
+            "endDate": "2025-05-01",
+            "summary": "Organized a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. Unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
+        },
         {
             "organization": "Biohacking BA",
             "position": "Volunteer Organizer",
             "url": "https://www.meetup.com/es/biohackingBA/",
             "startDate": "2013-01-01",
             "endDate": "2017-01-01",
-            "summary": "Organized talks, workshops, and DIY projects to promote innovation in science and engineering.",
+            "summary": "Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology.",
             "highlights": [
-                "Recycled old refrigerators into incubators",
-                "Manufactured a PCR thermocycler using Arduino",
-                "Developed open hardware projects"
+                "Organized hackathons for SBOL and FAIR data practices",
+                "Coordinated interdisciplinary teams and managed remote collaboration"
             ]
         },
         {
@@ -249,7 +377,71 @@
             "position": "Event Organizer",
             "startDate": "2010-01-01",
             "endDate": "2012-01-01",
-            "summary": "Coordinated the annual Biology Week to promote scientific careers among high school students."
+            "summary": "Coordinated the annual Biology Week to promote science careers among high school students."
         }
-    ]
+    ],
+    "projects": [
+        {
+            "name": "Synergistic Discovery and Design (SD2)",
+            "description": "Genetic circuit design for extreme environments enabled by models extracted from petabyte+ perturbation analyses.",
+            "startDate": "2018-01-01",
+            "endDate": "2022-06-01",
+            "keywords": [
+                "Synthetic Biology",
+                "Genetic Circuits",
+                "DARPA"
+            ],
+            "roles": [
+                "Researcher"
+            ],
+            "entity": "DARPA",
+            "type": "research project"
+        },
+        {
+            "name": "iBioSim Development",
+            "description": "Worked on iBioSim—a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.",
+            "keywords": [
+                "iBioSim",
+                "SBML",
+                "SBOL",
+                "Genetic Circuits"
+            ],
+            "roles": [
+                "Developer"
+            ],
+            "entity": "Genetic Logic Lab",
+            "type": "research project"
+        },
+        {
+            "name": "Advanced Machine Learning for Biological Systems",
+            "description": "Developed and applied novel machine learning algorithms to model and predict the structure and dynamics of biological systems. Employed custom Gaussian process regression with covariance kernel designs, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks for scalable inference with limited samples. Originally applied to microbial systems, methods were generalized to any biological system.",
+            "keywords": [
+                "Machine Learning",
+                "Gaussian Process Regression",
+                "Bayesian Inference",
+                "VAR Regression",
+                "Physics-Informed Neural Networks"
+            ],
+            "roles": [
+                "Algorithm Developer"
+            ],
+            "entity": "Research Projects",
+            "type": "research project"
+        },
+        {
+            "name": "Detecting Fake News",
+            "description": "Developed a machine learning project to detect fake news using advanced algorithms in Python. Hosted project on GitHub.",
+            "url": "https://github.com/Fontanapink/Detecting-Fake-News-A-Machine-Learning-Approach",
+            "startDate": "2022-01-01",
+            "keywords": [
+                "Machine Learning",
+                "Fake News Detection",
+                "Python"
+            ]
+        }
+    ],
+    "meta": {
+        "version": "v1.0.0",
+        "lastModified": "2025-03-03T00:00:00"
+    }
 }
