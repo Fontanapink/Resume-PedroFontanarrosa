@@ -47,13 +47,14 @@
             "position": "Postdoctoral Researcher",
             "location": "London, UK",
             "startDate": "2023-06-15",
-            "summary": "Developed and enhanced Python packages tailored for modeling, inference, and design of biological systems. Created and adapted CI/CD pipelines to streamline the software development lifecycle for computational biology. Applied and advanced machine learning techniques including Gaussian processes, neural networks, and VAR models, and employed Bayesian optimization methods to improve design and analysis of complex biological systems. Processed over 10,000 experimental data points and contributed to enhanced simulation accuracy by 15%.",
+            "summary": "Developed and enhanced Python packages for simulating, inferring, and predicting microbial community interactions. Designed and published MIMIC—a package integrating mechanistic models (gLV, VAR, CR) with Bayesian inference to simulate microbial dynamics (Bioinformatics, 2024 :contentReference[oaicite:0]{index=0}). Initiated development of hybrid Neural Networks using gray box modeling and Physics-Informed Neural Networks (PINNs) to infer microbial interactions with improved interpretability and accuracy.",
             "highlights": [
-                "Developed robust Python packages for genetic design automation and modeling inference",
-                "Created and adapted CI/CD pipelines for scalable computational biology workflows",
-                "Applied advanced machine learning and Bayesian optimization techniques to improve system design",
-                "Processed over 10,000 experimental data points",
-                "Achieved 95% prediction accuracy in dynamic modeling of genetic regulatory networks"
+                "Developed MIMIC, a Python package for simulating, inferring, and predicting microbial community dynamics; published in Bioinformatics",
+                "Implemented Gaussian Process regression for imputing missing time-series data in microbial abundance datasets",
+                "Applied Bayesian inference with MCMC sampling to recover interaction matrices, achieving 87.48% stability across posterior samples",
+                "Integrated multi-omic data to enhance model robustness and ecological insight",
+                "Initiated development of hybrid Neural Networks using gray box modeling and PINNs for inferring microbial interactions, improving model interpretability and predictive performance",
+                "Streamlined CI/CD pipelines for scalable and reproducible computational biology workflows"
             ]
         },
         {
@@ -210,7 +211,9 @@
                 "Google Cloud",
                 "TensorFlow",
                 "PyTorch",
-                "scikit-learn"
+                "scikit-learn",
+                "MCP",
+                "WSL"
             ]
         },
         {
@@ -243,15 +246,19 @@
             ]
         },
         {
-            "name": "Data Science & Machine Learning",
+            "name": "Machine Learning & Data Science",
             "level": "Expert",
             "keywords": [
                 "Artificial Intelligence",
-                "Data Analysis",
-                "Neural Networks",
+                "Deep Learning",
+                "Hybrid Neural Networks",
                 "Physics-Informed Neural Networks",
                 "Bayesian Inference",
-                "VAR Regression"
+                "Gaussian Process Regression",
+                "Time Series Analysis",
+                "VAR Regression",
+                "Uncertainty Quantification",
+                "PyMC"
             ]
         },
         {
@@ -366,11 +373,7 @@
             "url": "https://www.meetup.com/es/biohackingBA/",
             "startDate": "2013-01-01",
             "endDate": "2017-01-01",
-            "summary": "Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology.",
-            "highlights": [
-                "Organized hackathons for SBOL and FAIR data practices",
-                "Coordinated interdisciplinary teams and managed remote collaboration"
-            ]
+            "summary": "Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology."
         },
         {
             "organization": "University of Buenos Aires Biology Week",
@@ -378,66 +381,6 @@
             "startDate": "2010-01-01",
             "endDate": "2012-01-01",
             "summary": "Coordinated the annual Biology Week to promote science careers among high school students."
-        }
-    ],
-    "projects": [
-        {
-            "name": "Synergistic Discovery and Design (SD2)",
-            "description": "Genetic circuit design for extreme environments enabled by models extracted from petabyte+ perturbation analyses.",
-            "startDate": "2018-01-01",
-            "endDate": "2022-06-01",
-            "keywords": [
-                "Synthetic Biology",
-                "Genetic Circuits",
-                "DARPA"
-            ],
-            "roles": [
-                "Researcher"
-            ],
-            "entity": "DARPA",
-            "type": "research project"
-        },
-        {
-            "name": "iBioSim Development",
-            "description": "Worked on iBioSim—a CAD tool for modeling, analysis, and design of genetic circuits supporting SBML and SBOL, including capabilities for multicellular and spatial models.",
-            "keywords": [
-                "iBioSim",
-                "SBML",
-                "SBOL",
-                "Genetic Circuits"
-            ],
-            "roles": [
-                "Developer"
-            ],
-            "entity": "Genetic Logic Lab",
-            "type": "research project"
-        },
-        {
-            "name": "Advanced Machine Learning for Biological Systems",
-            "description": "Developed and applied novel machine learning algorithms to model and predict the structure and dynamics of biological systems. Employed custom Gaussian process regression with covariance kernel designs, Bayesian inference with VAR regression for time-series analysis, and physics-informed neural networks for scalable inference with limited samples. Originally applied to microbial systems, methods were generalized to any biological system.",
-            "keywords": [
-                "Machine Learning",
-                "Gaussian Process Regression",
-                "Bayesian Inference",
-                "VAR Regression",
-                "Physics-Informed Neural Networks"
-            ],
-            "roles": [
-                "Algorithm Developer"
-            ],
-            "entity": "Research Projects",
-            "type": "research project"
-        },
-        {
-            "name": "Detecting Fake News",
-            "description": "Developed a machine learning project to detect fake news using advanced algorithms in Python. Hosted project on GitHub.",
-            "url": "https://github.com/Fontanapink/Detecting-Fake-News-A-Machine-Learning-Approach",
-            "startDate": "2022-01-01",
-            "keywords": [
-                "Machine Learning",
-                "Fake News Detection",
-                "Python"
-            ]
         }
     ],
     "meta": {
