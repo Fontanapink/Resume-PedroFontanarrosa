@@ -2,12 +2,12 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Pedro Fontanarrosa",
-        "label": "Multidisciplinary Researcher & Software Engineer in Synthetic Biology",
+        "label": "Multidisciplinary Researcher & Software Engineer | Statistical Modeling & Data Standards",
         "image": "",
         "email": "pfontanarrosa@gmail.com",
         "phone": "+1 530-277-7641",
         "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
-        "summary": "Multidisciplinary researcher with extensive experience in computational/software engineering and biological sciences. Pioneered a novel computational method leveraging Hybrid NN to infer dynamics from experimental omics data. Developed Genetic Design Automation tools that processed over 10,000 experimental data points and achieved 95% prediction accuracy in dynamic modeling. Authored 32 publications, including 8 in high-impact journals.",
+        "summary": "Multidisciplinary researcher with extensive experience in computational/software engineering and biological sciences with 7+ years executing end-to-end statistical workflows: experimental design support, analysis plan writing, data standards adoption, reproducible programming, and rigorous QC. Deep experience building analysis datasets and publication-grade TLFs in Python/R. Comfortable translating complex methods for non-statisticians and coordinating with cross‑functional teams across US/UK time zones.",
         "location": {
             "city": "Nevada City",
             "region": "California",
@@ -43,117 +43,92 @@
     },
     "work": [
         {
-            "name": "Computational Systems and Synthetic Biology Lab, University College London",
-            "position": "Postdoctoral Researcher",
+            "name": "Computational Systems & Synthetic Biology Lab, University College London",
+            "position": "Postdoctoral Researcher (Statistical Modeling & Inference)",
             "location": "London, UK",
             "startDate": "2023-06-15",
-            "summary": "Developed and enhanced Python packages for simulating, inferring, and predicting microbial community interactions. Designed and published MIMIC—a package integrating mechanistic models (gLV, VAR, CR) with Bayesian inference to simulate microbial dynamics (Bioinformatics, 2024 :contentReference[oaicite:0]{index=0}). Initiated development of hybrid Neural Networks using gray box modeling and Physics-Informed Neural Networks (PINNs) to infer microbial interactions with improved interpretability and accuracy.",
             "highlights": [
-                "Developed MIMIC, a Python package for simulating, inferring, and predicting microbial community dynamics; published in Bioinformatics",
-                "Implemented Gaussian Process regression for imputing missing time-series data in microbial abundance datasets",
-                "Applied Bayesian inference with MCMC sampling to recover interaction matrices, achieving 87.48% stability across posterior samples",
-                "Integrated multi-omic data to enhance model robustness and ecological insight",
-                "Initiated development of hybrid Neural Networks using gray box modeling and PINNs for inferring microbial interactions, improving model interpretability and predictive performance",
-                "Streamlined CI/CD pipelines for scalable and reproducible computational biology workflows"
+                "Designed study analysis plans for modeling investigations; specified model/estimator choices, priors, and sensitivity analyses; delivered publication-ready TLFs with traceable code and logs.",
+                "Built and validated pipelines to transform raw, multi‑omic time series into analysis datasets; implemented data integrity checks, missing-data imputation, and derivations with unit-tested functions.",
+                "Led uncertainty-quantification work (ensembles, MC-dropout) and documented assumptions, diagnostics, and limitations in methods sections.",
+                "Instituted CI/CD and code review practices for reproducible analyses; authored clear programming/QC rules and tracking logs shared with collaborators.",
+                "Stakeholder comms: presented methods and results to mixed technical/non‑technical audiences; collaborated across US/UK time zones."
             ]
         },
         {
-            "name": "Genetic Logic Lab, University of Boulder",
-            "position": "Postdoctoral Researcher",
+            "name": "Genetic Logic Lab, University of Colorado Boulder",
+            "position": "Postdoctoral Researcher (Modeling & Data Standards)",
             "location": "Boulder, CO, USA",
             "startDate": "2022-08-23",
             "endDate": "2023-06-01",
-            "summary": "Developed Genetic Design Automation tools and mathematical models for synthetic biology. Employed computational methods for genetic circuit simulation and design in a collaborative, interdisciplinary setting. Enhanced iBioSim functionalities resulting in a 15% improvement in simulation accuracy and developed robust models that forecasted gene expression with 95% accuracy. Collaborated with international teams using cloud-based tools and authored 8 peer-reviewed publications during tenure.",
             "highlights": [
-                "Enhanced iBioSim functionalities for genetic circuit modeling",
-                "Developed robust mathematical models for genetic design with 95% forecasting accuracy",
-                "Collaborated with international research teams using cloud-based tools",
-                "Authored 8 peer-reviewed publications during tenure",
-                "Optimized simulation workflows resulting in a 15% improvement in accuracy"
+                "Developed statistical models to evaluate design robustness under noise and uncertainty; created comparison TLFs and figures for internal decision‑making and manuscripts.",
+                "Contributed to community data/metadata standards (SBOL/SBML/SED‑ML) and automated model generation; emphasized traceability and auditability of analyses.",
+                "Collaborated with cross‑disciplinary teams; maintained project administration files (protocol-like documents, analysis notes, annotated shells, and communication logs)."
             ]
         },
         {
             "name": "University of Utah",
-            "position": "Research Assistant (PhD Researcher)",
-            "location": "Salt Lake City, UT, USA",
-            "startDate": "2019-08-16",
-            "endDate": "2022-08-22",
-            "summary": "",
-            "highlights": []
-        },
-        {
-            "name": "COMBINE Standards",
-            "position": "SBOL Editor",
-            "location": "Online",
-            "startDate": "2019-01-01",
-            "endDate": "2022-01-01",
-            "summary": "",
-            "highlights": []
-        },
-        {
-            "name": "University of Utah",
-            "position": "Research Assistant (Master's Researcher)",
+            "position": "Research Assistant (PhD & MS)",
             "location": "Salt Lake City, UT, USA",
             "startDate": "2017-08-22",
-            "endDate": "2019-08-15",
-            "summary": "",
-            "highlights": []
+            "endDate": "2022-08-22",
+            "highlights": [
+                "Designed and executed statistical modeling studies; conducted simulation studies to assess estimator performance and robustness; documented SAP‑like methods and results.",
+                "Built data processing and analysis pipelines; QA/QC via unit tests, reproducible environments, and version‑controlled analysis notebooks.",
+                "Taught/mentored peers on experimental design, uncertainty analysis, and communication of results."
+            ]
         },
         {
-            "name": "Northlands School",
-            "position": "Highschool Chemistry Teacher",
-            "location": "Buenos Aires, Argentina",
-            "startDate": "2015-01-01",
-            "endDate": "2017-01-01",
-            "summary": "",
-            "highlights": []
+            "name": "COMBINE Standards (SBOL Community)",
+            "position": "SBOL Standards Editor / Contributor",
+            "location": "Remote",
+            "startDate": "2019-01-01",
+            "endDate": "2022-01-01",
+            "highlights": [
+                "Contributed to open standards (SBOL v3) enabling structured protocols, annotations, and machine‑readable model/metadata exchange.",
+                "Drafted and reviewed specification text; coordinated cross‑institution contributors; emphasized validation rules and backward compatibility."
+            ]
         },
         {
-            "name": "Tarbut School",
-            "position": "Science and Mathematics Teacher",
-            "location": "Buenos Aires, Argentina",
-            "startDate": "2014-01-01",
-            "endDate": "2015-01-01",
-            "summary": "",
-            "highlights": []
-        },
-        {
-            "name": "Evolutionary Studies Laboratory, University of Buenos Aires",
-            "position": "Research Assistant",
-            "location": "Buenos Aires, Argentina",
-            "startDate": "2010-01-01",
-            "endDate": "2014-01-01",
-            "summary": "",
-            "highlights": []
+            "name": "Data-Centric Biological Design & Engineering Interest Group (Alan Turing Institute)",
+            "position": "Organizer / Program Coordinator (Part-time)",
+            "location": "Remote, UK/US time zones",
+            "url": "https://data-centric-biodesign-tig.github.io/",
+            "startDate": "2024-10-01",
+            "endDate": "2025-05-01",
+            "highlights": [
+                "Coordinated a monthly seminar series with speakers from academia and industry; owned agendas, logistics, and stakeholder communications across US/UK time zones.",
+                "Maintained project administration artifacts (speaker intake, schedules, tracking logs, website/calendar updates) with version control and auditability.",
+                "Standardized templates/checklists to improve quality and consistency of abstracts, slides, and summaries; ensured materials were accurate and audience-appropriate.",
+                "Built cross-functional relationships and collaborated with scientists, data engineers, and program staff to define talk scope and outcomes."
+            ]
         }
     ],
     "education": [
         {
             "institution": "University of Utah",
             "area": "Biomedical Engineering (Synthetic Biology Track)",
-            "studyType": "Ph.D.",
+            "studyType": "Ph.D. in Biomedical Engineering",
             "startDate": "2019-08-16",
             "endDate": "2022-08-22",
-            "score": "3.8/4.0",
-            "courses": []
+            "score": "3.8/4.0"
         },
         {
             "institution": "University of Utah",
             "area": "Bioengineering (Synthetic Biology Track)",
-            "studyType": "Master's",
+            "studyType": "Master's in Bioengineering",
             "startDate": "2017-08-22",
             "endDate": "2019-08-15",
-            "score": "3.67/4.0",
-            "courses": []
+            "score": "3.67/4.0"
         },
         {
             "institution": "University of Buenos Aires",
             "area": "Biological Sciences (Genetics, Evolution and Ecology)",
-            "studyType": "Licentiate",
+            "studyType": "Licentiate in Biological Sciences",
             "startDate": "2007-01-01",
             "endDate": "2014-01-01",
-            "score": "8.39/10.00",
-            "courses": []
+            "score": "8.39/10.00"
         }
     ],
     "awards": [
@@ -176,28 +151,58 @@
             "summary": "Supported research and development tasks in genetics and ecology."
         }
     ],
-    "publications": [
+    "projects": [
         {
-            "name": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
-            "publisher": "ACS Synthetic Biology",
-            "releaseDate": "2024-01-01",
-            "url": "https://doi.org/xx.xxxx/acssynbio.xxxxxx",
-            "summary": "An analysis of how model complexity impacted the robustness of synthetic genetic circuits."
+            "name": "MIMIC — Modeling & Inference of Microbiomes (Python)",
+            "description": "Open-source package integrating simulation (gLV/VAR/CR), Bayesian inference, and uncertainty quantification; examples as Jupyter notebooks; emphasized reproducible workflows and documentation.",
+            "keywords": [
+                "Python",
+                "PyMC",
+                "Bayesian inference",
+                "Time series",
+                "Reproducibility",
+                "TLF automation"
+            ],
+            "url": "https://github.com/ucl-cssb/MIMIC"
         },
         {
-            "name": "Synthetic Biology Open Language (SBOL) Version 3.1.0",
-            "publisher": "Journal of Integrative Bioinformatics",
-            "releaseDate": "2023-01-01",
-            "url": "https://doi.org/xx.xxxx/jib.xxxxxx",
-            "summary": "Described the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering."
+            "name": "PINN for Dynamics Inference",
+            "description": "Physics‑informed neural networks to infer interpretable interaction parameters; conducted ablation studies and uncertainty quantification with deep ensembles and MC‑dropout; authored comprehensive methods and diagnostics.",
+            "keywords": [
+                "PINN",
+                "Uncertainty quantification",
+                "Ablation studies",
+                "Reproducible research"
+            ]
         }
     ],
     "skills": [
         {
-            "name": "Software Engineering",
+            "name": "Biostatistics & Clinical Standards",
+            "level": "Proficient/Advancing",
+            "keywords": [
+                "Study design (hypotheses, endpoints, estimands)",
+                "Analysis plan writing (methods, assumptions, sensitivity)",
+                "TLFs (tables, listings, figures) — design & QC (Python/R)",
+                "CDISC concepts (SDTM/ADaM) — mapping familiarity, learning sprint",
+                "Regulatory awareness (ICH E9/E6(R2), GCP, 21 CFR Part 11)",
+                "Data integrity & audit trails; traceable derivations"
+            ]
+        },
+        {
+            "name": "Programming",
             "level": "Expert",
             "keywords": [
                 "Python",
+                "R",
+                "Git/GitHub",
+                "PyMC",
+                "NumPy/SciPy",
+                "pandas",
+                "Matplotlib",
+                "JAX/TensorFlow",
+                "Docker",
+                "CI/CD",
                 "Java",
                 "C++",
                 "JavaScript",
@@ -238,17 +243,13 @@
             ]
         },
         {
-            "name": "Probabilistic Modeling",
+            "name": "Methods & Modeling",
             "level": "Advanced",
             "keywords": [
-                "Gaussian Process Regression",
-                "Bayesian Machine Learning"
-            ]
-        },
-        {
-            "name": "Machine Learning & Data Science",
-            "level": "Expert",
-            "keywords": [
+                "Bayesian inference",
+                "Gaussian Processes",
+                "Mixed models",
+                "Time‑to‑event basics",
                 "Artificial Intelligence",
                 "Deep Learning",
                 "Hybrid Neural Networks",
@@ -258,8 +259,18 @@
                 "Time Series Analysis",
                 "VAR Regression",
                 "Uncertainty Quantification",
-                "PyMC"
+                "PyMC",
+                "Multiple imputation basics",
+                "UQ (ensembles, dropout)"
             ]
+        }
+    ],
+    "publications": [
+        {
+            "name": "Exploring Physics‑Informed Neural Networks for Inferring Microbial Community Dynamics and Guiding Community Design",
+            "publisher": "Preprint",
+            "releaseDate": "2025-08-15",
+            "summary": "Ablation and UQ study demonstrating robust parameter inference and practical training strategies."
         },
         {
             "name": "Web Development",
@@ -268,13 +279,6 @@
                 "HTML",
                 "Hugo",
                 "Jekyll"
-            ]
-        },
-        {
-            "name": "Databases",
-            "level": "Intermediate",
-            "keywords": [
-                "SQL"
             ]
         },
         {
@@ -288,6 +292,19 @@
                 "Job Scheduling",
                 "Distributed Computing"
             ]
+        },
+        {
+            "name": "Databases",
+            "level": "Intermediate",
+            "keywords": [
+                "SQL"
+            ]
+        },
+        {
+            "name": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
+            "publisher": "ACS Synthetic Biology",
+            "releaseDate": "2024-01-01",
+            "summary": "Comparative modeling under intrinsic/extrinsic noise for design robustness decisions."
         }
     ],
     "languages": [
@@ -308,7 +325,6 @@
             "fluency": "Beginner"
         }
     ],
-    "interests": [],
     "certificates": [
         {
             "name": "Data Science Bootcamp",
@@ -356,31 +372,6 @@
             "name": "Theory of Gaussian Process Regression for Machine Learning",
             "url": "https://www.udemy.com/course/gaussian-process-regression-fundamentals-and-application/?couponCode=ST10MT30325G2",
             "issuer": "Udemy"
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Data-Centric Biological Design & Engineering Interest Group",
-            "position": "Organizer",
-            "url": "https://data-centric-biodesign-tig.github.io/",
-            "startDate": "2024-10-01",
-            "endDate": "2025-05-01",
-            "summary": "Organized a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. Unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
-        },
-        {
-            "organization": "Biohacking BA",
-            "position": "Volunteer Organizer",
-            "url": "https://www.meetup.com/es/biohackingBA/",
-            "startDate": "2013-01-01",
-            "endDate": "2017-01-01",
-            "summary": "Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology."
-        },
-        {
-            "organization": "University of Buenos Aires Biology Week",
-            "position": "Event Organizer",
-            "startDate": "2010-01-01",
-            "endDate": "2012-01-01",
-            "summary": "Coordinated the annual Biology Week to promote science careers among high school students."
         }
     ],
     "meta": {
