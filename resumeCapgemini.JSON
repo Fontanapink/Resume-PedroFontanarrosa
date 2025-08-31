@@ -3,7 +3,6 @@
     "basics": {
         "name": "Pedro Fontanarrosa",
         "label": "Multidisciplinary Researcher & Software Engineer | Statistical Modeling & Data Standards",
-        "image": "",
         "email": "pfontanarrosa@gmail.com",
         "phone": "+1 530-277-7641",
         "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
@@ -50,9 +49,9 @@
             "highlights": [
                 "Designed study analysis plans for modeling investigations; specified model/estimator choices, priors, and sensitivity analyses; delivered publication-ready TLFs with traceable code and logs.",
                 "Built and validated pipelines to transform raw, multi‑omic time series into analysis datasets; implemented data integrity checks, missing-data imputation, and derivations with unit-tested functions.",
-                "Led uncertainty-quantification work (ensembles, MC-dropout) and documented assumptions, diagnostics, and limitations in methods sections.",
-                "Instituted CI/CD and code review practices for reproducible analyses; authored clear programming/QC rules and tracking logs shared with collaborators.",
-                "Stakeholder comms: presented methods and results to mixed technical/non‑technical audiences; collaborated across US/UK time zones."
+                "Led uncertainty-quantification work (ensembles, MC-dropout); documented assumptions, diagnostics, and limitations in methods sections.",
+                "Instituted CI/CD and code review practices for reproducible analyses; authored programming/QC rules and tracking logs shared with collaborators.",
+                "Presented methods and results to mixed technical/non‑technical audiences; collaborated across US/UK time zones."
             ]
         },
         {
@@ -62,9 +61,9 @@
             "startDate": "2022-08-23",
             "endDate": "2023-06-01",
             "highlights": [
-                "Developed statistical models to evaluate design robustness under noise and uncertainty; created comparison TLFs and figures for internal decision‑making and manuscripts.",
-                "Contributed to community data/metadata standards (SBOL/SBML/SED‑ML) and automated model generation; emphasized traceability and auditability of analyses.",
-                "Collaborated with cross‑disciplinary teams; maintained project administration files (protocol-like documents, analysis notes, annotated shells, and communication logs)."
+                "Developed statistical models to evaluate design robustness under noise/uncertainty; created comparison TLFs and figures for decision‑making and manuscripts.",
+                "Contributed to community data/metadata standards (SBOL/SBML/SED‑ML) and automated model generation; emphasized traceability and auditability.",
+                "Collaborated with cross‑disciplinary teams; maintained project administration files (protocol‑like documents, analysis notes, annotated shells, communication logs)."
             ]
         },
         {
@@ -74,9 +73,9 @@
             "startDate": "2017-08-22",
             "endDate": "2022-08-22",
             "highlights": [
-                "Designed and executed statistical modeling studies; conducted simulation studies to assess estimator performance and robustness; documented SAP‑like methods and results.",
-                "Built data processing and analysis pipelines; QA/QC via unit tests, reproducible environments, and version‑controlled analysis notebooks.",
-                "Taught/mentored peers on experimental design, uncertainty analysis, and communication of results."
+                "Designed and executed statistical modeling studies; ran simulation studies to assess estimator performance and robustness; documented SAP‑like methods and results.",
+                "Built data processing/analysis pipelines; QA/QC via unit tests, reproducible environments, and version‑controlled analysis notebooks.",
+                "Mentored peers on experimental design, uncertainty analysis, and communicating results."
             ]
         },
         {
@@ -91,8 +90,8 @@
             ]
         },
         {
-            "name": "Data-Centric Biological Design & Engineering Interest Group (Alan Turing Institute)",
-            "position": "Organizer / Program Coordinator (Part-time)",
+            "name": "Data‑Centric Biological Design & Engineering Interest Group (Alan Turing Institute)",
+            "position": "Organizer / Program Coordinator (Part‑time)",
             "location": "Remote, UK/US time zones",
             "url": "https://data-centric-biodesign-tig.github.io/",
             "startDate": "2024-10-01",
@@ -100,8 +99,8 @@
             "highlights": [
                 "Coordinated a monthly seminar series with speakers from academia and industry; owned agendas, logistics, and stakeholder communications across US/UK time zones.",
                 "Maintained project administration artifacts (speaker intake, schedules, tracking logs, website/calendar updates) with version control and auditability.",
-                "Standardized templates/checklists to improve quality and consistency of abstracts, slides, and summaries; ensured materials were accurate and audience-appropriate.",
-                "Built cross-functional relationships and collaborated with scientists, data engineers, and program staff to define talk scope and outcomes."
+                "Standardized templates/checklists to improve quality and consistency of abstracts, slides, and summaries; ensured materials were accurate and audience‑appropriate.",
+                "Built cross‑functional relationships and collaborated with scientists, data engineers, and program staff to define talk scope and outcomes."
             ]
         }
     ],
@@ -154,7 +153,7 @@
     "projects": [
         {
             "name": "MIMIC — Modeling & Inference of Microbiomes (Python)",
-            "description": "Open-source package integrating simulation (gLV/VAR/CR), Bayesian inference, and uncertainty quantification; examples as Jupyter notebooks; emphasized reproducible workflows and documentation.",
+            "description": "Open‑source package integrating simulation (gLV/VAR/CR), Bayesian inference, and uncertainty quantification; examples as Jupyter notebooks; reproducible workflows and documentation.",
             "keywords": [
                 "Python",
                 "PyMC",
@@ -167,7 +166,7 @@
         },
         {
             "name": "PINN for Dynamics Inference",
-            "description": "Physics‑informed neural networks to infer interpretable interaction parameters; conducted ablation studies and uncertainty quantification with deep ensembles and MC‑dropout; authored comprehensive methods and diagnostics.",
+            "description": "Physics‑informed neural networks to infer interpretable interaction parameters; ablation studies and uncertainty quantification with deep ensembles and MC‑dropout; comprehensive diagnostics.",
             "keywords": [
                 "PINN",
                 "Uncertainty quantification",
@@ -182,9 +181,9 @@
             "level": "Proficient/Advancing",
             "keywords": [
                 "Study design (hypotheses, endpoints, estimands)",
-                "Analysis plan writing (methods, assumptions, sensitivity)",
+                "SAP/analysis plan writing (methods, assumptions, sensitivity)",
                 "TLFs (tables, listings, figures) — design & QC (Python/R)",
-                "CDISC concepts (SDTM/ADaM) — mapping familiarity, learning sprint",
+                "CDISC concepts (SDTM/ADaM) — mapping familiarity (self‑study)",
                 "Regulatory awareness (ICH E9/E6(R2), GCP, 21 CFR Part 11)",
                 "Data integrity & audit trails; traceable derivations"
             ]
@@ -195,12 +194,13 @@
             "keywords": [
                 "Python",
                 "R",
-                "Git/GitHub",
                 "PyMC",
                 "NumPy/SciPy",
                 "pandas",
                 "Matplotlib",
                 "JAX/TensorFlow",
+                "scikit‑learn",
+                "Git/GitHub",
                 "Docker",
                 "CI/CD",
                 "Java",
@@ -263,6 +263,18 @@
                 "Multiple imputation basics",
                 "UQ (ensembles, dropout)"
             ]
+        },
+        {
+            "name": "Additional Technical",
+            "level": "Advanced/Expert",
+            "keywords": [
+                "HPC & cluster computing",
+                "Job scheduling",
+                "Parallel/Distributed computing",
+                "SQL (intermediate)",
+                "Web scraping (Scrapy/Selenium)",
+                "Web (HTML, Hugo, Jekyll)"
+            ]
         }
     ],
     "publications": [
@@ -304,7 +316,7 @@
             "name": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
             "publisher": "ACS Synthetic Biology",
             "releaseDate": "2024-01-01",
-            "summary": "Comparative modeling under intrinsic/extrinsic noise for design robustness decisions."
+            "summary": "Comparative modeling under intrinsic/extrinsic noise for design‑robustness decisions."
         }
     ],
     "languages": [
@@ -333,7 +345,7 @@
             "issuer": "THE ERDŐS INSTITUTE"
         },
         {
-            "name": "Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]",
+            "name": "Machine Learning A‑Z™: AI, Python & R + ChatGPT Bonus [2023]",
             "date": "2023-01-01",
             "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
             "issuer": "Udemy"
@@ -376,6 +388,6 @@
     ],
     "meta": {
         "version": "v1.0.0",
-        "lastModified": "2025-03-03T00:00:00"
+        "lastModified": "2025-08-24T00:00:00"
     }
 }
