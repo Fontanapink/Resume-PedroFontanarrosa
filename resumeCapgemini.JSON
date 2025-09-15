@@ -177,18 +177,6 @@
     ],
     "skills": [
         {
-            "name": "Biostatistics & Clinical Standards",
-            "level": "Proficient/Advancing",
-            "keywords": [
-                "Study design (hypotheses, endpoints, estimands)",
-                "SAP/analysis plan writing (methods, assumptions, sensitivity)",
-                "TLFs (tables, listings, figures) — design & QC (Python/R)",
-                "CDISC concepts (SDTM/ADaM) — mapping familiarity (self‑study)",
-                "Regulatory awareness (ICH E9/E6(R2), GCP, 21 CFR Part 11)",
-                "Data integrity & audit trails; traceable derivations"
-            ]
-        },
-        {
             "name": "Programming",
             "level": "Expert",
             "keywords": [
