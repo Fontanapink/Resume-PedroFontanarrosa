@@ -1,0 +1,304 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Pedro Fontanarrosa",
+        "label": "Multidisciplinary Researcher & Software Engineer | Statistical Modeling & Data Standards",
+        "email": "pfontanarrosa@gmail.com",
+        "phone": "+1 530-277-7641",
+        "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
+        "summary": "Multidisciplinary researcher with extensive experience in computational/software engineering and biological sciences with 7+ years executing end-to-end statistical workflows: experimental design support, analysis plan writing, data standards adoption, reproducible programming, and rigorous QC. Deep experience building analysis datasets and publication-grade TLFs in Python/R. Comfortable translating complex methods for non-statisticians and coordinating with cross‑functional teams across US/UK time zones.",
+        "location": {
+            "city": "Nevada City",
+            "region": "California",
+            "countryCode": "US"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "fontanapink",
+                "url": "https://github.com/Fontanapink"
+            },
+            {
+                "network": "ORCID",
+                "username": "0000-0002-0535-2684",
+                "url": "https://orcid.org/0000-0002-0535-2684"
+            },
+            {
+                "network": "Google Scholar",
+                "username": "Pedro Fontanarrosa",
+                "url": "https://scholar.google.com/citations?hl=en&user=UemPJnYAAAAJ"
+            },
+            {
+                "network": "Research Gate",
+                "username": "Pedro Fontanarrosa",
+                "url": "https://www.researchgate.net/profile/Pedro_Fontanarrosa3?ev=hdr_xprf"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "pedro-fontanarrosa-37372474",
+                "url": "https://www.linkedin.com/in/pedro-fontanarrosa-37372474/"
+            }
+        ],
+        "summary": "Applied ML researcher turned engineer building reproducible modeling pipelines and data products. 7+ years owning end-to-end workflows: schema design, data prep, modeling/evaluation, CI/CD, and QC. Strong with Python, PyTorch/TensorFlow, PyMC, containers, and versioned artifacts; comfortable translating technical work into decisions across teams/time zones."
+    },
+    "skills": [
+        {
+            "name": "LLM & Agentic (foundational exposure)",
+            "keywords": [
+                "Prompt design/evaluation",
+                "Task decomposition & tool-use workflows",
+                "Retrieval & unstructured data prep",
+                "Safety/guardrails patterns"
+            ]
+        },
+        {
+            "name": "Data Engineering",
+            "keywords": [
+                "Schema design & data modeling",
+                "ETL/ELT in Python (pandas/polars)",
+                "SQL (PostgreSQL/MySQL)",
+                "APIs & file-based lakes (Parquet/CSV/JSON)",
+                "Data validation & lineage logging"
+            ]
+        },
+        {
+            "name": "MLOps / Ops",
+            "keywords": [
+                "Docker",
+                "CI/CD (GitHub Actions)",
+                "Reproducible envs",
+                "Experiment tracking (structured logs/CSV/plots)",
+                "HPC schedulers/job arrays",
+                "Monitoring/alerting patterns"
+            ]
+        },
+        {
+            "name": "ML & Statistics",
+            "keywords": [
+                "Time-series modeling",
+                "Bayesian inference (PyMC)",
+                "Uncertainty quantification (ensembles, MC-dropout)",
+                "Physics-informed & hybrid models (PINNs/UDEs)",
+                "scikit-learn",
+                "Evaluation/ablation design"
+            ]
+        },
+        {
+            "name": "Programming & Cloud",
+            "keywords": [
+                "Python",
+                "R",
+                "NumPy/SciPy",
+                "pandas",
+                "Matplotlib",
+                "PyTorch",
+                "TensorFlow",
+                "Git/GitHub",
+                "Google Cloud (foundational)",
+                "Bash"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "name": "Computational Systems & Synthetic Biology Lab, University College London",
+            "position": "Postdoctoral Researcher — Modeling & Inference (Engineering Track)",
+            "location": "London, UK",
+            "startDate": "2023-06-15",
+            "highlights": [
+                "Built reproducible Python pipelines turning noisy multi-omic time series into analysis-ready datasets with unit-tested transforms, imputation, and integrity checks; shipped publication-grade figures/TLFs tied to versioned code.",
+                "Owned evaluation harnesses and ablation matrices for physics-informed models; introduced deep ensembles and MC-dropout, materially improving accuracy and stability in synthetic gLV studies (e.g., M RMSE ↓ 1.152→0.021 via parameter scaling; µ RMSE ↓ ~54% via ensembles).",
+                "Containerized workflows (Docker) and instituted CI/CD (GitHub Actions) with artifact logging and run manifests for auditability and reproducibility across collaborators.",
+                "Partnered cross-functionally to translate modeling findings into decisions; presented methods and limitations to mixed technical/non-technical audiences."
+            ]
+        },
+        {
+            "name": "Genetic Logic Lab, University of Colorado Boulder",
+            "position": "Postdoctoral Researcher — Modeling & Data Standards",
+            "location": "Boulder, CO, USA",
+            "startDate": "2022-08-23",
+            "endDate": "2023-06-01",
+            "highlights": [
+                "Developed modeling pipelines to evaluate design robustness under noise/uncertainty; produced comparison reports and decision-support visuals.",
+                "Contributed to community data/metadata standards (SBOL/SBML/SED-ML), emphasizing validation rules, machine-readable exchange, and backward compatibility.",
+                "Maintained project administration artifacts (analysis notes, protocol-like docs, annotated shells) to ensure traceability across teams."
+            ]
+        },
+        {
+            "name": "University of Utah",
+            "position": "Research Assistant (PhD & MS)",
+            "location": "Salt Lake City, UT, USA",
+            "startDate": "2017-08-22",
+            "endDate": "2022-08-22",
+            "highlights": [
+                "Designed and executed statistical modeling studies; ran simulation studies to assess estimator performance and robustness.",
+                "Stood up data processing/analysis pipelines with QA/QC via tests, reproducible environments, and version-controlled notebooks.",
+                "Mentored peers on experimental design, uncertainty analysis, and communicating results."
+            ]
+        },
+        {
+            "name": "COMBINE Standards (SBOL Community)",
+            "position": "SBOL Standards Editor / Contributor",
+            "location": "Remote",
+            "startDate": "2019-01-01",
+            "endDate": "2022-01-01",
+            "highlights": [
+                "Drafted/reviewed specification text for SBOL v3 enabling structured protocols and machine-readable model/metadata exchange; coordinated cross-institution contributors."
+            ]
+        },
+        {
+            "name": "Data-Centric Biological Design & Engineering Interest Group (Alan Turing Institute)",
+            "position": "Organizer / Program Coordinator (Part-time)",
+            "location": "Remote",
+            "url": "https://data-centric-biodesign-tig.github.io/",
+            "startDate": "2024-10-01",
+            "endDate": "2025-05-01",
+            "highlights": [
+                "Coordinated monthly seminar series (academia/industry); owned agendas, logistics, and stakeholder comms across US/UK time zones.",
+                "Standardized templates/checklists for abstracts/slides/summaries; maintained website/calendar with version control and auditability."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "MIMIC — Modeling & Inference of Microbiomes (Python, open source)",
+            "url": "https://github.com/ucl-cssb/MIMIC",
+            "description": "Package integrating simulation (gLV/VAR/CR), Bayesian inference, and UQ with reproducible notebooks and docs.",
+            "keywords": [
+                "Python",
+                "PyMC",
+                "Time series",
+                "Reproducibility",
+                "TLF automation"
+            ]
+        },
+        {
+            "name": "PINNs for Dynamics Inference",
+            "description": "Physics-informed neural networks to infer interpretable interaction parameters with ablations and UQ (ensembles, MC-dropout); comprehensive diagnostics.",
+            "keywords": [
+                "PyTorch/TensorFlow",
+                "DeepXDE",
+                "UQ",
+                "Ablations",
+                "Evaluation"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Utah",
+            "studyType": "Ph.D.",
+            "area": "Biomedical Engineering (Synthetic Biology Track)",
+            "startDate": "2019-08-16",
+            "endDate": "2022-08-22",
+            "score": "3.8/4.0"
+        },
+        {
+            "institution": "University of Utah",
+            "studyType": "Master's",
+            "area": "Bioengineering (Synthetic Biology Track)",
+            "startDate": "2017-08-22",
+            "endDate": "2019-08-15",
+            "score": "3.67/4.0"
+        },
+        {
+            "institution": "University of Buenos Aires",
+            "studyType": "Licentiate",
+            "area": "Biological Sciences (Genetics, Evolution & Ecology)",
+            "startDate": "2007-01-01",
+            "endDate": "2014-01-01",
+            "score": "8.39/10.00"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Fulbright and Argentine Presidential Fellowship in Science & Technology",
+            "date": "2017-01-01",
+            "awarder": "Argentine President’s Cabinet & U.S. Embassy of Buenos Aires",
+            "summary": "Awarded to pursue a master’s degree in the United States starting Fall 2017."
+        },
+        {
+            "title": "Research and Communication Excellency Award",
+            "date": "2015-01-01",
+            "awarder": "Ministry of Science and Technology, Argentinean government",
+            "summary": "Recognized for excellence in research and communication under the 'Beca Estímulo' scholarship."
+        },
+        {
+            "title": "Beca Estímulo (Encouragement Scholarship)",
+            "date": "2011-01-01",
+            "awarder": "University of Buenos Aires",
+            "summary": "Supported research and development tasks in genetics and ecology."
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "Proficient"
+        },
+        {
+            "language": "Portuguese",
+            "fluency": "Intermediate"
+        },
+        {
+            "language": "French",
+            "fluency": "Beginner"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Data Science Bootcamp",
+            "date": "2023-01-01",
+            "url": "https://www.erdosinstitute.org/certificates/spring-2023/data-science-boot-camp/pedro-fontanarrosa",
+            "issuer": "THE ERDŐS INSTITUTE"
+        },
+        {
+            "name": "Machine Learning A‑Z™: AI, Python & R + ChatGPT Bonus [2023]",
+            "date": "2023-01-01",
+            "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Optimization with Python: Solve Operations Research Problems",
+            "url": "https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Optimization with Python: Complete Pyomo Bootcamp A-Z",
+            "url": "https://www.udemy.com/course/optimization-with-python-complete-pyomo-bootcamp-a-z/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "AI and Meta-Heuristics (Combinatorial Optimization) Python",
+            "url": "https://www.udemy.com/course/ai-and-combinatorial-optimization-with-meta-heuristics/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Modern Web Scraping with Python using Scrapy Splash Selenium",
+            "url": "https://www.udemy.com/course/web-scraping-in-python-using-scrapy-and-splash/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Deployment of Machine Learning Models",
+            "url": "https://www.udemy.com/course/deployment-of-machine-learning-models/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Pyomo Bootcamp: Python Optimization from Beginner to Advance",
+            "url": "https://www.udemy.com/course/optimization-in-python/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        },
+        {
+            "name": "Theory of Gaussian Process Regression for Machine Learning",
+            "url": "https://www.udemy.com/course/gaussian-process-regression-fundamentals-and-application/?couponCode=ST10MT30325G2",
+            "issuer": "Udemy"
+        }
+    ],
+    "meta": {
+        "version": "v1.0.0",
+        "lastModified": "2025-09-15T00:00:00"
+    }
+}
