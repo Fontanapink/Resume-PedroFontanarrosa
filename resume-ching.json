@@ -6,7 +6,7 @@
         "email": "pfontanarrosa@gmail.com",
         "phone": "+1 530-277-7641",
         "url": "https://fontanapink.github.io/Resume-PedroFontanarrosa/",
-        "summary": "Multidisciplinary researcher with extensive experience in computational/software engineering and biological sciences with 7+ years executing end-to-end statistical workflows: experimental design support, analysis plan writing, data standards adoption, reproducible programming, and rigorous QC. Deep experience building analysis datasets and publication-grade TLFs in Python/R. Comfortable translating complex methods for non-statisticians and coordinating with cross‑functional teams across US/UK time zones.",
+        "summary": "Multidisciplinary researcher with extensive experience in computational/software engineering and biological sciences. 7+ years executing end-to-end statistical/ML workflows: experimental design support, analysis plan writing, data standards adoption, reproducible programming, and rigorous QC. Deep experience building analysis datasets and publication-grade TLFs in Python/R. Strong with containers and CI/CD. Comfortable translating complex methods for non-statisticians and coordinating with cross-functional teams across US/UK time zones. Targeting roles where rigorous pipelines, evaluation/ablation discipline, and data quality enable agentic systems and applied ML.",
         "location": {
             "city": "Nevada City",
             "region": "California",
@@ -29,7 +29,7 @@
                 "url": "https://scholar.google.com/citations?hl=en&user=UemPJnYAAAAJ"
             },
             {
-                "network": "Research Gate",
+                "network": "ResearchGate",
                 "username": "Pedro Fontanarrosa",
                 "url": "https://www.researchgate.net/profile/Pedro_Fontanarrosa3?ev=hdr_xprf"
             },
@@ -38,90 +38,32 @@
                 "username": "pedro-fontanarrosa-37372474",
                 "url": "https://www.linkedin.com/in/pedro-fontanarrosa-37372474/"
             }
-        ],
-        "summary": "Applied ML researcher turned engineer building reproducible modeling pipelines and data products. 7+ years owning end-to-end workflows: schema design, data prep, modeling/evaluation, CI/CD, and QC. Strong with Python, PyTorch/TensorFlow, PyMC, containers, and versioned artifacts; comfortable translating technical work into decisions across teams/time zones."
+        ]
     },
-    "skills": [
-        {
-            "name": "LLM & Agentic (foundational exposure)",
-            "keywords": [
-                "Prompt design/evaluation",
-                "Task decomposition & tool-use workflows",
-                "Retrieval & unstructured data prep",
-                "Safety/guardrails patterns"
-            ]
-        },
-        {
-            "name": "Data Engineering",
-            "keywords": [
-                "Schema design & data modeling",
-                "ETL/ELT in Python (pandas/polars)",
-                "SQL (PostgreSQL/MySQL)",
-                "APIs & file-based lakes (Parquet/CSV/JSON)",
-                "Data validation & lineage logging"
-            ]
-        },
-        {
-            "name": "MLOps / Ops",
-            "keywords": [
-                "Docker",
-                "CI/CD (GitHub Actions)",
-                "Reproducible envs",
-                "Experiment tracking (structured logs/CSV/plots)",
-                "HPC schedulers/job arrays",
-                "Monitoring/alerting patterns"
-            ]
-        },
-        {
-            "name": "ML & Statistics",
-            "keywords": [
-                "Time-series modeling",
-                "Bayesian inference (PyMC)",
-                "Uncertainty quantification (ensembles, MC-dropout)",
-                "Physics-informed & hybrid models (PINNs/UDEs)",
-                "scikit-learn",
-                "Evaluation/ablation design"
-            ]
-        },
-        {
-            "name": "Programming & Cloud",
-            "keywords": [
-                "Python",
-                "R",
-                "NumPy/SciPy",
-                "pandas",
-                "Matplotlib",
-                "PyTorch",
-                "TensorFlow",
-                "Git/GitHub",
-                "Google Cloud (foundational)",
-                "Bash"
-            ]
-        }
-    ],
     "work": [
         {
             "name": "Computational Systems & Synthetic Biology Lab, University College London",
-            "position": "Postdoctoral Researcher — Modeling & Inference (Engineering Track)",
+            "position": "Postdoctoral Researcher (Statistical Modeling & Inference)",
             "location": "London, UK",
             "startDate": "2023-06-15",
             "highlights": [
-                "Built reproducible Python pipelines turning noisy multi-omic time series into analysis-ready datasets with unit-tested transforms, imputation, and integrity checks; shipped publication-grade figures/TLFs tied to versioned code.",
-                "Owned evaluation harnesses and ablation matrices for physics-informed models; introduced deep ensembles and MC-dropout, materially improving accuracy and stability in synthetic gLV studies (e.g., M RMSE ↓ 1.152→0.021 via parameter scaling; µ RMSE ↓ ~54% via ensembles).",
-                "Containerized workflows (Docker) and instituted CI/CD (GitHub Actions) with artifact logging and run manifests for auditability and reproducibility across collaborators.",
-                "Partnered cross-functionally to translate modeling findings into decisions; presented methods and limitations to mixed technical/non-technical audiences."
+                "Designed study analysis plans for modeling investigations; specified model/estimator choices, priors, and sensitivity analyses; delivered publication-ready TLFs with traceable code and logs.",
+                "Built and validated pipelines to transform raw, multi-omic time series into analysis datasets; implemented data integrity checks, missing-data imputation, and derivations with unit-tested functions.",
+                "Led uncertainty-quantification work (ensembles, MC-dropout); documented assumptions, diagnostics, and limitations in methods sections.",
+                "Instituted CI/CD and code review practices for reproducible analyses; authored programming/QC rules and tracking logs shared with collaborators.",
+                "Presented methods and results to mixed technical/non-technical audiences; collaborated across US/UK time zones."
             ]
         },
         {
             "name": "Genetic Logic Lab, University of Colorado Boulder",
-            "position": "Postdoctoral Researcher — Modeling & Data Standards",
+            "position": "Postdoctoral Researcher (Modeling & Data Standards)",
             "location": "Boulder, CO, USA",
             "startDate": "2022-08-23",
             "endDate": "2023-06-01",
             "highlights": [
-                "Developed modeling pipelines to evaluate design robustness under noise/uncertainty; produced comparison reports and decision-support visuals.",
-                "Contributed to community data/metadata standards (SBOL/SBML/SED-ML), emphasizing validation rules, machine-readable exchange, and backward compatibility.",
-                "Maintained project administration artifacts (analysis notes, protocol-like docs, annotated shells) to ensure traceability across teams."
+                "Developed statistical models to evaluate design robustness under noise/uncertainty; created comparison TLFs and figures for decision-making and manuscripts.",
+                "Contributed to community data/metadata standards (SBOL/SBML/SED-ML) and automated model generation; emphasized traceability and auditability.",
+                "Collaborated with cross-disciplinary teams; maintained project administration files (protocol-like documents, analysis notes, annotated shells, communication logs)."
             ]
         },
         {
@@ -131,8 +73,8 @@
             "startDate": "2017-08-22",
             "endDate": "2022-08-22",
             "highlights": [
-                "Designed and executed statistical modeling studies; ran simulation studies to assess estimator performance and robustness.",
-                "Stood up data processing/analysis pipelines with QA/QC via tests, reproducible environments, and version-controlled notebooks.",
+                "Designed and executed statistical modeling studies; ran simulation studies to assess estimator performance and robustness; documented SAP-like methods and results.",
+                "Built data processing/analysis pipelines; QA/QC via unit tests, reproducible environments, and version-controlled analysis notebooks.",
                 "Mentored peers on experimental design, uncertainty analysis, and communicating results."
             ]
         },
@@ -143,30 +85,44 @@
             "startDate": "2019-01-01",
             "endDate": "2022-01-01",
             "highlights": [
-                "Drafted/reviewed specification text for SBOL v3 enabling structured protocols and machine-readable model/metadata exchange; coordinated cross-institution contributors."
+                "Contributed to open standards (SBOL v3) enabling structured protocols, annotations, and machine-readable model/metadata exchange.",
+                "Drafted and reviewed specification text; coordinated cross-institution contributors; emphasized validation rules and backward compatibility."
             ]
         },
         {
-            "name": "Data-Centric Biological Design & Engineering Interest Group (Alan Turing Institute)",
-            "position": "Organizer / Program Coordinator (Part-time)",
-            "location": "Remote",
-            "url": "https://data-centric-biodesign-tig.github.io/",
-            "startDate": "2024-10-01",
-            "endDate": "2025-05-01",
-            "highlights": [
-                "Coordinated monthly seminar series (academia/industry); owned agendas, logistics, and stakeholder comms across US/UK time zones.",
-                "Standardized templates/checklists for abstracts/slides/summaries; maintained website/calendar with version control and auditability."
-            ]
+            "name": "Northlands School",
+            "position": "Highschool Chemistry Teacher",
+            "location": "Buenos Aires, Argentina",
+            "startDate": "2015-01-01",
+            "endDate": "2017-01-01",
+            "highlights": []
+        },
+        {
+            "name": "Tarbut School",
+            "position": "Science and Mathematics Teacher",
+            "location": "Buenos Aires, Argentina",
+            "startDate": "2014-01-01",
+            "endDate": "2015-01-01",
+            "highlights": []
+        },
+        {
+            "name": "Evolutionary Studies Laboratory, University of Buenos Aires",
+            "position": "Research Assistant",
+            "location": "Buenos Aires, Argentina",
+            "startDate": "2010-01-01",
+            "endDate": "2014-01-01",
+            "highlights": []
         }
     ],
     "projects": [
         {
             "name": "MIMIC — Modeling & Inference of Microbiomes (Python, open source)",
             "url": "https://github.com/ucl-cssb/MIMIC",
-            "description": "Package integrating simulation (gLV/VAR/CR), Bayesian inference, and UQ with reproducible notebooks and docs.",
+            "description": "Open-source package integrating simulation (gLV/VAR/CR), Bayesian inference, and uncertainty quantification; examples as Jupyter notebooks; reproducible workflows and documentation.",
             "keywords": [
                 "Python",
                 "PyMC",
+                "Bayesian inference",
                 "Time series",
                 "Reproducibility",
                 "TLF automation"
@@ -174,40 +130,195 @@
         },
         {
             "name": "PINNs for Dynamics Inference",
-            "description": "Physics-informed neural networks to infer interpretable interaction parameters with ablations and UQ (ensembles, MC-dropout); comprehensive diagnostics.",
+            "description": "Physics-informed neural networks to infer interpretable interaction parameters; ablation studies and uncertainty quantification with deep ensembles and MC-dropout; comprehensive diagnostics.",
             "keywords": [
-                "PyTorch/TensorFlow",
-                "DeepXDE",
-                "UQ",
-                "Ablations",
-                "Evaluation"
+                "PINN",
+                "Uncertainty quantification",
+                "Ablation studies",
+                "Reproducible research"
             ]
         }
     ],
     "education": [
         {
             "institution": "University of Utah",
-            "studyType": "Ph.D.",
             "area": "Biomedical Engineering (Synthetic Biology Track)",
+            "studyType": "Ph.D. in Biomedical Engineering",
             "startDate": "2019-08-16",
             "endDate": "2022-08-22",
             "score": "3.8/4.0"
         },
         {
             "institution": "University of Utah",
-            "studyType": "Master's",
             "area": "Bioengineering (Synthetic Biology Track)",
+            "studyType": "Master's in Bioengineering",
             "startDate": "2017-08-22",
             "endDate": "2019-08-15",
             "score": "3.67/4.0"
         },
         {
             "institution": "University of Buenos Aires",
-            "studyType": "Licentiate",
-            "area": "Biological Sciences (Genetics, Evolution & Ecology)",
+            "area": "Biological Sciences (Genetics, Evolution and Ecology)",
+            "studyType": "Licentiate in Biological Sciences",
             "startDate": "2007-01-01",
             "endDate": "2014-01-01",
             "score": "8.39/10.00"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Exploring accuracy and uncertainty quantification in physics-informed neural networks for inferring microbial community dynamics",
+            "publisher": "Preprint",
+            "releaseDate": "2025-09-01",
+            "summary": "Ablation and UQ study demonstrating robust parameter inference and practical training strategies."
+        },
+        {
+            "name": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
+            "publisher": "ACS Synthetic Biology",
+            "releaseDate": "2024-01-01",
+            "summary": "Comparative modeling under intrinsic/extrinsic noise for design-robustness decisions."
+        },
+        {
+            "name": "Synthetic Biology Open Language (SBOL) Version 3.1.0",
+            "publisher": "Journal of Integrative Bioinformatics",
+            "releaseDate": "2023-01-01",
+            "summary": "Implementation and features of SBOL v3.1.0 for standardized data exchange in bioengineering."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming",
+            "level": "Expert",
+            "keywords": [
+                "Python",
+                "R",
+                "NumPy/SciPy",
+                "pandas",
+                "Matplotlib",
+                "PyTorch",
+                "TensorFlow",
+                "Java",
+                "C++",
+                "JavaScript",
+                "Bash",
+                "Git/GitHub/GitLab"
+            ]
+        },
+        {
+            "name": "ML & Methods",
+            "level": "Advanced",
+            "keywords": [
+                "Bayesian inference (PyMC)",
+                "Time series analysis (VAR, mixed models)",
+                "Gaussian Processes",
+                "Uncertainty Quantification (ensembles, MC-dropout)",
+                "Physics-Informed / Hybrid Neural Nets (PINNs/UDEs)",
+                "Evaluation & ablation design",
+                "Multiple imputation (basics)",
+                "Time-to-event (basics)"
+            ]
+        },
+        {
+            "name": "Data Engineering",
+            "level": "Advanced",
+            "keywords": [
+                "Schema design & derivations",
+                "ETL/ELT in Python (pandas/polars)",
+                "Data validation & integrity checks",
+                "Reproducible datasets (Parquet/CSV/JSON)",
+                "SQL (intermediate; PostgreSQL/MySQL)"
+            ]
+        },
+        {
+            "name": "MLOps / Reproducibility",
+            "level": "Advanced",
+            "keywords": [
+                "Docker",
+                "CI/CD (GitHub Actions)",
+                "Reproducible environments",
+                "Versioned artifacts & run manifests",
+                "HPC & cluster computing (job scheduling, arrays)",
+                "Logging/monitoring patterns"
+            ]
+        },
+        {
+            "name": "LLM & Agentic (foundational exposure)",
+            "level": "Intermediate",
+            "keywords": [
+                "Prompt design/evaluation",
+                "Task decomposition & tool-use workflows",
+                "Retrieval & unstructured data prep",
+                "Safety/guardrail patterns"
+            ]
+        },
+        {
+            "name": "Optimization & OR",
+            "level": "Expert",
+            "keywords": [
+                "CPLEX",
+                "Gurobi",
+                "Pyomo",
+                "Linear/Nonlinear/Integer Programming"
+            ]
+        },
+        {
+            "name": "Web / Infra (additional)",
+            "level": "Advanced",
+            "keywords": [
+                "HTML",
+                "Hugo",
+                "Jekyll",
+                "Web scraping (Scrapy/Selenium)",
+                "Google Cloud (foundational)"
+            ]
+        },
+        {
+            "name": "HPC",
+            "level": "Expert",
+            "keywords": [
+                "Parallel/Distributed computing",
+                "Cluster computing",
+                "MPI",
+                "Job Scheduling",
+                "WSL"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "Intermediate",
+            "keywords": [
+                "SQL",
+                "Schema design",
+                "Querying & troubleshooting"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "Proficient"
+        },
+        {
+            "language": "Portuguese",
+            "fluency": "Intermediate"
+        },
+        {
+            "language": "French",
+            "fluency": "Beginner"
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Data-Centric Biological Design & Engineering Interest Group",
+            "position": "Organizer",
+            "url": "https://data-centric-biodesign-tig.github.io/",
+            "startDate": "2024-10-01",
+            "endDate": "2025-05-01",
+            "summary": "Organized a monthly seminar series to leverage AI in advancing biological system engineering; coordinated speakers, logistics, and materials with version control."
         }
     ],
     "awards": [
@@ -230,24 +341,6 @@
             "summary": "Supported research and development tasks in genetics and ecology."
         }
     ],
-    "languages": [
-        {
-            "language": "Spanish",
-            "fluency": "Native"
-        },
-        {
-            "language": "English",
-            "fluency": "Proficient"
-        },
-        {
-            "language": "Portuguese",
-            "fluency": "Intermediate"
-        },
-        {
-            "language": "French",
-            "fluency": "Beginner"
-        }
-    ],
     "certificates": [
         {
             "name": "Data Science Bootcamp",
@@ -256,7 +349,7 @@
             "issuer": "THE ERDŐS INSTITUTE"
         },
         {
-            "name": "Machine Learning A‑Z™: AI, Python & R + ChatGPT Bonus [2023]",
+            "name": "Machine Learning A-Z™: AI, Python & R + ChatGPT Bonus [2023]",
             "date": "2023-01-01",
             "url": "https://www.udemy.com/certificate/UC-099abc5f-7fbc-4674-988d-1c2c96302ec8/",
             "issuer": "Udemy"
