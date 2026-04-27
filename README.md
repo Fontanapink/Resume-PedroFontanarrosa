@@ -70,3 +70,14 @@ The original `jsonresume-theme-class` was not working as expected. A fork of the
 ```bash
 npx resumed render resume.json --theme @jsonresume/jsonresume-theme-class --output docs/index.html
 ```
+
+
+## HackMyResume
+I've also added the HackMyResume CLI to the project. You can use it to generate a resume from your JSON resume. The output directory is `out`
+- https://github.com/hacksalot/HackMyResume
+
+## rendercv
+I've also added the rendercv CLI to the project. You can use it to generate a resume from your JSON resume or YAML resume. The output directory is `outFRESH` using resume-jrs.json. However, the pdf generated is not parseable by ATS.
+- https://rendercv.com/
+- https://docs.rendercv.com/developer_guide/writing_documentation/
+- 

@@ -1,0 +1,378 @@
+{
+  "name": "Pedro Fontanarrosa",
+  "info": {
+    "label": "Multidisciplinary Researcher & Software Engineer in Synthetic Biology",
+    "brief": "Broadly skilled researcher with a strong foundation in computational/software engineering and biological sciences. Extensive experience developing Genetic Design Automation (GDA) tools and mathematical models for genetic circuit design acquired during Master's and PhD research. Currently expanding into advanced machine learning algorithm development at UCL—designing custom Gaussian process regression kernels, applying Bayesian inference with VAR regression for time-series analysis, and developing physics-informed neural networks to infer biological system dynamics. Excels in remote, multidisciplinary collaborations."
+  },
+  "contact": {
+    "email": "pfontanarrosa@gmail.com",
+    "phone": "+44 756 459 4770"
+  },
+  "meta": {
+    "version": "v1.0.0",
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2025-04-02T09:48:45.820Z"
+  },
+  "location": {
+    "city": "London",
+    "region": "England",
+    "country": "GB"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Postdoctoral Researcher",
+        "summary": "Focus on developing and enhancing Python packages tailored for modeling, inference, and design of biological systems. Responsible for creating and adapting CI/CD pipelines to streamline the software development lifecycle for computational biology, while applying and advancing machine learning techniques—including Gaussian processes, neural networks, and VAR models—and Bayesian optimization methods to improve the design and analysis of complex biological systems.",
+        "current": true,
+        "start": "2023-06-15",
+        "keywords": [],
+        "highlights": [
+          "Developed robust Python packages for genetic design automation and modeling inference",
+          "Created and adapted CI/CD pipelines for scalable computational biology workflows",
+          "Applied and advanced machine learning (GP, VAR, NN) and Bayesian optimization algorithms to enhance predictive modeling and system design"
+        ]
+      },
+      {
+        "position": "Postdoctoral Researcher",
+        "summary": "Developed Genetic Design Automation (GDA) tools and mathematical models for synthetic biology. Focused on computational methods for genetic circuit simulation and design in a collaborative, interdisciplinary setting.",
+        "start": "2022-08-23",
+        "end": "2023-06-01",
+        "keywords": [],
+        "highlights": [
+          "Enhanced iBioSim functionalities for genetic circuit modeling",
+          "Developed robust mathematical models for genetic design",
+          "Collaborated with international research teams using cloud-based tools"
+        ]
+      },
+      {
+        "position": "Research Assistant (PhD Researcher)",
+        "summary": "Conducted independent advanced research in Biomedical Engineering focused on developing computational models and Genetic Design Automation (GDA) tools. Performed mathematical modeling and simulation to guide experimental validation.",
+        "start": "2019-08-16",
+        "end": "2022-08-22",
+        "keywords": [],
+        "highlights": [
+          "Simulated genetic regulatory networks using stochastic modeling, forecasting gene expression levels with 95% accuracy and guiding subsequent experimental validation by other team members.",
+          "Guided experimental research through simulation-based predictions",
+          "Collaborated on interdisciplinary synthetic biology projects"
+        ]
+      },
+      {
+        "position": "SBOL Editor",
+        "summary": "Curated and maintained the Synthetic Biology Open Language (SBOL) standard for representing biological designs. Coordinated change proposals and supported the development of software libraries and community documentation.",
+        "start": "2019-01-01",
+        "end": "2022-01-01",
+        "keywords": [],
+        "highlights": [
+          "Led weekly meetings to coordinate SBOL standard updates",
+          "Facilitated community-driven revisions and improvements to SBOL",
+          "Enhanced interoperability in synthetic biology data exchange"
+        ]
+      },
+      {
+        "position": "Research Assistant (Master's Researcher)",
+        "summary": "Performed supervised research focused on early-stage development of computational tools for genetic circuit design. Assisted in mathematical modeling and collaborative simulation projects.",
+        "start": "2017-08-22",
+        "end": "2019-08-15",
+        "keywords": [],
+        "highlights": [
+          "Contributed to preliminary genetic circuit modeling tools",
+          "Supported modeling and simulation of genetic regulatory systems",
+          "Collaborated on interdisciplinary research initiatives"
+        ]
+      },
+      {
+        "position": "Highschool Chemistry Teacher",
+        "summary": "Taught chemistry to high school students and coordinated Extended Essays in chemical research.",
+        "start": "2015-01-01",
+        "end": "2017-01-01",
+        "keywords": [],
+        "highlights": [
+          "Developed lesson plans that enhanced student engagement",
+          "Mentored students in chemical research projects"
+        ]
+      },
+      {
+        "position": "Science and Mathematics Teacher",
+        "summary": "Taught science and mathematics to primary and high school students and organized Mathematical Ingenious Olympiads.",
+        "start": "2014-01-01",
+        "end": "2015-01-01",
+        "keywords": [],
+        "highlights": [
+          "Designed and implemented creative educational programs",
+          "Coordinated school-wide science and math competitions"
+        ]
+      },
+      {
+        "position": "Research Assistant",
+        "summary": "Conducted research in genetics and ecology, including maintaining Drosophila isogenetic lines, coordinating field expeditions, managing statistical programs and databases, and mentoring lab members.",
+        "start": "2010-01-01",
+        "end": "2014-01-01",
+        "keywords": [],
+        "highlights": [
+          "Coordinated field expeditions and permit negotiations",
+          "Managed statistical programs and databases",
+          "Trained new laboratory members"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "University of Utah",
+        "start": "2019-08-16",
+        "end": "2022-08-22",
+        "curriculum": [],
+        "summary": "",
+        "area": "Biomedical Engineering (Synthetic Biology Track)",
+        "studyType": "Ph.D."
+      },
+      {
+        "institution": "University of Utah",
+        "start": "2017-08-22",
+        "end": "2019-08-15",
+        "curriculum": [],
+        "summary": "",
+        "area": "Bioengineering (Synthetic Biology Track)",
+        "studyType": "Master's"
+      },
+      {
+        "institution": "University of Buenos Aires",
+        "start": "2007-01-01",
+        "end": "2014-01-01",
+        "curriculum": [],
+        "summary": "",
+        "area": "Biological Sciences (Genetics, Evolution and Ecology)",
+        "studyType": "Licentiate"
+      }
+    ]
+  },
+  "service": {
+    "history": [
+      {
+        "type": "volunteer",
+        "position": "Organizer",
+        "organization": "Data-Centric Biological Design & Engineering Interest Group",
+        "start": "2024-10-01",
+        "end": "2025-05-01",
+        "summary": "Organized a monthly seminar series under the Alan Turing Institute's banner to leverage AI in advancing biological system engineering. Unites experts from computer science, biology, and engineering to address global challenges in sustainable manufacturing, healthcare innovation, and environmental impact."
+      },
+      {
+        "type": "volunteer",
+        "position": "Volunteer Organizer",
+        "organization": "Biohacking BA",
+        "start": "2013-01-01",
+        "end": "2017-01-01",
+        "summary": "Organized talks, workshops, hackathons, and DIY projects to promote innovation in science, engineering, and synthetic biology.",
+        "highlights": [
+          "Organized hackathons for SBOL and FAIR data practices",
+          "Coordinated interdisciplinary teams and managed remote collaboration"
+        ]
+      },
+      {
+        "type": "volunteer",
+        "position": "Event Organizer",
+        "organization": "University of Buenos Aires Biology Week",
+        "start": "2010-01-01",
+        "end": "2012-01-01",
+        "summary": "Coordinated the annual Biology Week to promote science careers among high school students."
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Software Engineering",
+        "level": "Expert",
+        "skills": [
+          "Python",
+          "Java",
+          "C++",
+          "JavaScript",
+          "R",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "CI/CD",
+          "Docker",
+          "Kubernetes",
+          "Google Cloud",
+          "TensorFlow",
+          "PyTorch",
+          "scikit-learn"
+        ]
+      },
+      {
+        "name": "Optimization & Operations Research",
+        "level": "Expert",
+        "skills": [
+          "CPLEX",
+          "Gurobi",
+          "Pyomo",
+          "Linear Programming",
+          "Nonlinear Programming",
+          "Integer Programming"
+        ]
+      },
+      {
+        "name": "Web Scraping",
+        "level": "Intermediate",
+        "skills": [
+          "Scrapy",
+          "Splash",
+          "Selenium"
+        ]
+      },
+      {
+        "name": "Probabilistic Modeling",
+        "level": "Advanced",
+        "skills": [
+          "Gaussian Process Regression",
+          "Bayesian Machine Learning"
+        ]
+      },
+      {
+        "name": "Data Science & Machine Learning",
+        "level": "Expert",
+        "skills": [
+          "Artificial Intelligence",
+          "Data Analysis",
+          "Neural Networks",
+          "Physics-Informed Neural Networks",
+          "Bayesian Inference",
+          "VAR Regression"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "level": "Expert",
+        "skills": [
+          "HTML",
+          "Hugo",
+          "Jekyll"
+        ]
+      },
+      {
+        "name": "Databases",
+        "level": "Intermediate",
+        "skills": [
+          "SQL"
+        ]
+      },
+      {
+        "name": "High Performance Computing",
+        "level": "Expert",
+        "skills": [
+          "HPC",
+          "Parallel Computing",
+          "Cluster Computing",
+          "MPI",
+          "Job Scheduling",
+          "Distributed Computing"
+        ]
+      }
+    ]
+  },
+  "writing": [
+    {
+      "title": "Evaluating the Contribution of Model Complexity in Predicting Robustness in Synthetic Genetic Circuits",
+      "publisher": "ACS Synthetic Biology",
+      "date": "2024-01-01",
+      "summary": "An analysis of how model complexity impacts the robustness of synthetic genetic circuits."
+    },
+    {
+      "title": "Synthetic Biology Open Language (SBOL) Version 3.1.0",
+      "publisher": "Journal of Integrative Bioinformatics",
+      "date": "2023-01-01",
+      "summary": "Describes the implementation and features of SBOL version 3.1.0 for standardized data exchange in bioengineering."
+    }
+  ],
+  "recognition": [
+    {
+      "title": "Fulbright and Argentine Presidential Fellowship in Science & Technology",
+      "date": "2017-01-01",
+      "from": "Argentine President’s Cabinet & U.S. Embassy of Buenos Aires",
+      "summary": "Awarded to pursue a master’s degree in the United States starting Fall 2017."
+    },
+    {
+      "title": "Research and Communication Excellency Award",
+      "date": "2015-01-01",
+      "from": "Ministry of Science and Technology, Argentinean government",
+      "summary": "Recognized for excellence in research and communication under the 'Beca Estímulo' scholarship."
+    },
+    {
+      "title": "Beca Estímulo (Encouragement Scholarship)",
+      "date": "2011-01-01",
+      "from": "University of Buenos Aires",
+      "summary": "Supported research and development tasks in genetics and ecology."
+    }
+  ],
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/Fontanapink",
+      "user": "fontanapink"
+    },
+    {
+      "label": "ORCID",
+      "network": "ORCID",
+      "url": "https://orcid.org/0000-0002-0535-2684",
+      "user": "0000-0002-0535-2684"
+    },
+    {
+      "label": "Google Scholar",
+      "network": "Google Scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=UemPJnYAAAAJ",
+      "user": "Pedro Fontanarrosa"
+    },
+    {
+      "label": "Research Gate",
+      "network": "Research Gate",
+      "url": "https://www.researchgate.net/profile/Pedro_Fontanarrosa3?ev=hdr_xprf",
+      "user": "Pedro Fontanarrosa"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pedro-fontanarrosa-37372474/",
+      "user": "Pedro Fontanarrosa"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Synthetic Biology",
+      "keywords": [
+        "Genetic Circuit Design",
+        "Biomedical Engineering",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "Electronics & DIY",
+      "keywords": [
+        "Arduino",
+        "Electronic Projects"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "French",
+      "fluency": "Beginner"
+    }
+  ]
+}
